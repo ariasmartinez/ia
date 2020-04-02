@@ -1,0 +1,9 @@
+/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/rebuild_cache.dir
+/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/edit_cache.dir
+/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/BelkanSG.dir
+/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/GLUILib.dir
+/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/Belkan.dir
+/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir
+/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/motorLib.dir
+/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/modelosBelkanLib.dir
+/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/comportamientosLib.dir
