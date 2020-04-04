@@ -16,7 +16,7 @@ using namespace std;
 Action ComportamientoJugador::think(Sensores sensores) {
 	Action accion = actIDLE;
 
-	int level = 1;
+	int level = 2;
 	estado origen{sensores.posF, sensores.posC, sensores.sentido};
 	estado destino{sensores.destinoF, sensores.destinoC, sensores.sentido};
 	list<Action> plan;
@@ -34,7 +34,7 @@ Action ComportamientoJugador::think(Sensores sensores) {
 	destino.fila       = sensores.destinoF;
 	destino.columna    = sensores.destinoC;
 
-	pathFinding(level, origen, destino, plan);
+	pathFinding(2, origen, destino, plan);
 	/*
 
 
@@ -54,7 +54,7 @@ Action ComportamientoJugador::think(Sensores sensores) {
 // Level representa el comportamiento en el que fue iniciado el agente.
 bool ComportamientoJugador::pathFinding (int level, const estado &origen, const estado &destino, list<Action> &plan){
 	switch (level){
-		case 1: cout << "Busqueda en profundad\n";
+		case 1: cout << "Busqueda en profundidad\n";
 			      return pathFinding_Profundidad(origen,destino,plan);
 						break;
 		case 2: cout << "Busqueda en Anchura\n";

@@ -6,37 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/motorlib/entidad.cpp
+/home/celia/GitProjects/ia/practica2_linux/src/motorlib/entidad.cpp
 motorlib/entidad.hpp
-/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/motorlib/motorlib/entidad.hpp
+/home/celia/GitProjects/ia/practica2_linux/src/motorlib/motorlib/entidad.hpp
 
-/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/motorlib/mapa.cpp
+/home/celia/GitProjects/ia/practica2_linux/src/motorlib/mapa.cpp
 motorlib/mapa.hpp
-/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/motorlib/motorlib/mapa.hpp
+/home/celia/GitProjects/ia/practica2_linux/src/motorlib/motorlib/mapa.hpp
 
-/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/motorlib/monitor.cpp
+/home/celia/GitProjects/ia/practica2_linux/src/motorlib/monitor.cpp
 motorlib/monitor.hpp
-/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/motorlib/motorlib/monitor.hpp
+/home/celia/GitProjects/ia/practica2_linux/src/motorlib/motorlib/monitor.hpp
 fstream
 -
 
-/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/motorlib/motor_grafico.cpp
+/home/celia/GitProjects/ia/practica2_linux/src/motorlib/motor_grafico.cpp
 motorlib.hpp
-/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/motorlib/motorlib.hpp
+/home/celia/GitProjects/ia/practica2_linux/src/motorlib/motorlib.hpp
 glui/glui.h
 -
 dirent.h
 -
 
-/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/motorlib/motor_juego.cpp
+/home/celia/GitProjects/ia/practica2_linux/src/motorlib/motor_juego.cpp
 motorlib.hpp
-/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/motorlib/motorlib.hpp
+/home/celia/GitProjects/ia/practica2_linux/src/motorlib/motorlib.hpp
 unistd.h
 -
 
-/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/motorlib/util.cpp
+/home/celia/GitProjects/ia/practica2_linux/src/motorlib/util.cpp
 motorlib/util.h
-/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/motorlib/motorlib/util.h
+/home/celia/GitProjects/ia/practica2_linux/src/motorlib/motorlib/util.h
 
 Comportamientos_Jugador/aldeano.hpp
 chrono

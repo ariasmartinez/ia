@@ -6,5 +6,5 @@ CXX_FLAGS =  -fopenmp -pthread -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/include 
+CXX_INCLUDES = -I/home/celia/GitProjects/ia/practica2_linux/include 
 

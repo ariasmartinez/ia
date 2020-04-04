@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/bin_src/juegoSG.cc" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/BelkanSG.dir/bin_src/juegoSG.cc.o"
+  "/home/celia/GitProjects/ia/practica2_linux/bin_src/juegoSG.cc" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/BelkanSG.dir/bin_src/juegoSG.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,11 +15,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/DependInfo.cmake"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/motorLib.dir/DependInfo.cmake"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/modelosBelkanLib.dir/DependInfo.cmake"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/GLUILib.dir/DependInfo.cmake"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/comportamientosLib.dir/DependInfo.cmake"
+  "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/DependInfo.cmake"
+  "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/motorLib.dir/DependInfo.cmake"
+  "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/modelosBelkanLib.dir/DependInfo.cmake"
+  "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/GLUILib.dir/DependInfo.cmake"
+  "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/comportamientosLib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

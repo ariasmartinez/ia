@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/bin_src/juegoSG.cc
+/home/celia/GitProjects/ia/practica2_linux/bin_src/juegoSG.cc
 motorlib.hpp
-/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/bin_src/motorlib.hpp
+/home/celia/GitProjects/ia/practica2_linux/bin_src/motorlib.hpp
 fstream
 -
 

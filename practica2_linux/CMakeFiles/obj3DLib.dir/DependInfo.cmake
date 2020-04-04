@@ -4,22 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/cono3d.cc" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.o"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/cono3dwire.cc" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.o"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/cubo3d.cc" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.o"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/dodecaedro3d.cc" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.o"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/esfera3d.cc" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.o"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/file_ply_stl.cc" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.o"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/icosaedro3d.cc" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.o"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/jpeg_reader/jpg_imagen.cpp" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.o"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.o"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.o"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/luz.cpp" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.o"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/objeto3d.cc" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.o"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/objrevolucion3d.cc" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.o"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/octaedro3d.cc" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.o"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/tetraedro3d.cc" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.o"
-  "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/src/obj3dlib/toro3d.cc" "/home/celia/Escritorio/TERCERO/segundo/IA/p2/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/cono3d.cc" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3d.cc.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/cono3dwire.cc" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/cono3dwire.cc.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/cubo3d.cc" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/cubo3d.cc.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/dodecaedro3d.cc" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/dodecaedro3d.cc.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/esfera3d.cc" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/esfera3d.cc.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/file_ply_stl.cc" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/file_ply_stl.cc.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/icosaedro3d.cc" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/icosaedro3d.cc.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/jpeg_reader/jpg_imagen.cpp" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_imagen.cpp.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_memsrc.cpp.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/jpeg_reader/jpg_readwrite.cpp.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/luz.cpp" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/luz.cpp.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/objeto3d.cc" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/objeto3d.cc.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/objrevolucion3d.cc" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/objrevolucion3d.cc.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/octaedro3d.cc" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/octaedro3d.cc.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/tetraedro3d.cc" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/tetraedro3d.cc.o"
+  "/home/celia/GitProjects/ia/practica2_linux/src/obj3dlib/toro3d.cc" "/home/celia/GitProjects/ia/practica2_linux/CMakeFiles/obj3DLib.dir/src/obj3dlib/toro3d.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
