@@ -16,9 +16,7 @@ using namespace std;
 Action ComportamientoJugador::think(Sensores sensores) {
 	Action accion = actIDLE;
 
-	int level = 2;
-	estado origen{sensores.posF, sensores.posC, sensores.sentido};
-	estado destino{sensores.destinoF, sensores.destinoC, sensores.sentido};
+	
 	list<Action> plan;
 	
 	// Estoy en el nivel 1
@@ -34,8 +32,8 @@ Action ComportamientoJugador::think(Sensores sensores) {
 	destino.fila       = sensores.destinoF;
 	destino.columna    = sensores.destinoC;
 
-	pathFinding(2, origen, destino, plan);
-	/*
+	bateria = sensores.bateria; // celia
+	
 
 
 	if (sensores.nivel != 4){
@@ -44,7 +42,7 @@ Action ComportamientoJugador::think(Sensores sensores) {
 	else {
 		// Estoy en el nivel 2
 		cout << "Aún no implementado el nivel 2" << endl;
-	}*/
+	}
 
   return accion;
 }
@@ -61,7 +59,7 @@ bool ComportamientoJugador::pathFinding (int level, const estado &origen, const 
 			      return pathFinding_Anchura(origen,destino,plan);
 						break;
 		case 3: cout << "Busqueda Costo Uniforme\n";
-						// Incluir aqui la llamada al busqueda de costo uniforme
+						return pathFinding_CostoUniforme(origen,destino,plan);
 						break;
 		case 4: cout << "Busqueda para el reto\n";
 						// Incluir aqui la llamada al algoritmo de búsqueda usado en el nivel 2
@@ -120,6 +118,9 @@ bool ComportamientoJugador::HayObstaculoDelante(estado &st){
 struct nodo{
 	estado st;
 	list<Action> secuencia;
+	int bateria;
+	bool zapatillas = false;
+	bool bikini = false;
 };
 
 struct ComparaEstados{
@@ -132,6 +133,40 @@ struct ComparaEstados{
 	}
 };
 
+void cambiarBateria (nodo & hijo, const char terreno){
+	if (terreno == 'A'){
+		if(hijo.bikini){
+			hijo.bateria = hijo.bateria-10;
+		}
+		else{
+			hijo.bateria= hijo.bateria-100;
+		}
+	}
+	else if (terreno == 'B'){
+		if(hijo.zapatillas){
+			hijo.bateria = hijo.bateria-5;
+		}
+		else{
+			hijo.bateria = hijo.bateria-50;
+		}
+	}
+	else if (terreno == 'T'){
+		hijo.bateria = hijo.bateria-2;
+	}
+	else{
+		hijo.bateria = hijo.bateria-1;
+	}
+	if ((terreno == 'X') and (hijo.bateria < 3000))
+		hijo.bateria = min (hijo.bateria+10, 3000);
+}
+
+
+void cambiarAtributos(nodo & hijo, const char terreno){
+	if (terreno == 'K') 
+		hijo.bikini = true;
+	if (terreno == 'D')
+		hijo.zapatillas = true;	
+}
 
 // Implementación de la búsqueda en profundidad.
 // Entran los puntos origen y destino y devuelve la
@@ -255,6 +290,93 @@ bool ComportamientoJugador::pathFinding_Anchura(const estado &origen, const esta
 		// Tomo el siguiente valor de la pila
 		if (!cola.empty()){
 			current = cola.front();
+		}
+	}
+
+  cout << "Terminada la busqueda\n";
+
+	if (current.st.fila == destino.fila and current.st.columna == destino.columna){
+		cout << "Cargando el plan\n";
+		plan = current.secuencia;
+		cout << "Longitud del plan: " << plan.size() << endl;
+		PintaPlan(plan);
+		// ver el plan en el mapa
+		VisualizaPlan(origen, plan);
+		return true;
+	}
+	else {
+		cout << "No encontrado plan\n";
+	}
+
+
+	return false;
+}
+
+
+struct ComparaBateria{
+	bool operator()(const nodo &a, const nodo &b) const{
+		if (a.bateria > b.bateria)
+			return true;
+		else
+			return false;
+	}
+};
+
+bool ComportamientoJugador::pathFinding_CostoUniforme(const estado &origen, const estado &destino, list<Action> &plan) {
+	//Borro la lista
+	cout << "Calculando plan\n";
+	plan.clear();
+	set<estado,ComparaEstados> generados; // Lista de Cerrados
+	set<nodo, ComparaBateria> setNodos;											// Lista de Abiertos
+
+  nodo current;
+	current.st = origen;
+	current.bateria = bateria;
+	current.secuencia.empty();
+
+	setNodos.insert(current);
+
+  while (!setNodos.empty() and (current.st.fila!=destino.fila or current.st.columna != destino.columna)){
+
+		setNodos.erase(setNodos.begin());
+		generados.insert(current.st);
+
+		// Generar descendiente de girar a la derecha
+		nodo hijoTurnR = current;
+		hijoTurnR.st.orientacion = (hijoTurnR.st.orientacion+1)%4;
+		if (generados.find(hijoTurnR.st) == generados.end()){
+			const char terreno = mapaResultado[hijoTurnR.st.fila][hijoTurnR.st.columna];
+			cambiarBateria(hijoTurnR, terreno);
+			hijoTurnR.secuencia.push_back(actTURN_R);
+			setNodos.insert(hijoTurnR);
+
+		}
+
+		// Generar descendiente de girar a la izquierda
+		nodo hijoTurnL = current;
+		hijoTurnL.st.orientacion = (hijoTurnL.st.orientacion+3)%4;
+		if (generados.find(hijoTurnL.st) == generados.end()){
+			const char terreno = mapaResultado[hijoTurnL.st.fila][hijoTurnL.st.columna];
+			cambiarBateria(hijoTurnL, terreno);
+			hijoTurnL.secuencia.push_back(actTURN_L);
+			setNodos.insert(hijoTurnL);
+		}
+
+		// Generar descendiente de avanzar
+		nodo hijoForward = current;
+		if (!HayObstaculoDelante(hijoForward.st)){
+			if (generados.find(hijoForward.st) == generados.end()){
+				const char terreno = mapaResultado[hijoForward.st.fila][hijoForward.st.columna];
+				cambiarAtributos(hijoForward, terreno);
+				cambiarBateria(hijoForward, terreno);
+				hijoForward.secuencia.push_back(actFORWARD);
+				setNodos.insert(hijoForward);
+			}
+		}
+
+		// Tomo el siguiente valor del set
+		if (!setNodos.empty()){
+			current = (*setNodos.begin());
 		}
 	}
 
