@@ -32,6 +32,7 @@ class ComportamientoJugador : public Comportamiento {
       destino.columna = -1;
       destino.orientacion = -1;
       hayplan=false;
+      bateria = 3000; // celia
     }
     ComportamientoJugador(const ComportamientoJugador & comport) : Comportamiento(comport){}
     ~ComportamientoJugador(){}
@@ -47,7 +48,7 @@ class ComportamientoJugador : public Comportamiento {
     estado actual, destino;
     list<Action> plan;
     bool hayplan;
-    int bateria; 
+    int bateria;   //celia
     
 
     // Métodos privados de la clase

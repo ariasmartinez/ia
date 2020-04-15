@@ -4,6 +4,7 @@
 #include <iostream>
 #include <cmath>
 #include <set>
+
 #include <stack>
 #include <queue>
 
@@ -15,34 +16,39 @@ using namespace std;
 // sensores y devuelve la acción a realizar.
 Action ComportamientoJugador::think(Sensores sensores) {
 	Action accion = actIDLE;
+  // Estoy en el nivel 1
+  if (sensores.nivel != 4){
+      if( !hayplan) {
+          actual.fila        = sensores.posF;
+          actual.columna     = sensores.posC;
+          actual.orientacion = sensores.sentido;
 
-	
-	list<Action> plan;
-	
-	// Estoy en el nivel 1
+          cout << "Fila: " << actual.fila << endl;
+          cout << "Col : " << actual.columna << endl;
+        cout << "Ori : " << actual.orientacion << endl;
 
-	actual.fila        = sensores.posF;
-	actual.columna     = sensores.posC;
-	actual.orientacion = sensores.sentido;
+        destino.fila       = sensores.destinoF;
+        destino.columna    = sensores.destinoC;
 
-	cout << "Fila: " << actual.fila << endl;
-	cout << "Col : " << actual.columna << endl;
-	cout << "Ori : " << actual.orientacion << endl;
+        hayplan = pathFinding (sensores.nivel, actual, destino, plan);
+      }
+	 
+      if( hayplan and plan.size() > 0) {
+        accion = plan.front();
+        plan.erase(plan.begin());
+      }
+      else {
 
-	destino.fila       = sensores.destinoF;
-	destino.columna    = sensores.destinoC;
+        // aquí entraría si no se ha encontrado un comportamiento o está mal implementado
+        cout << "Plan mal implementado o no se ha encontrado " << endl;
 
-	bateria = sensores.bateria; // celia
-	
-
-
-	if (sensores.nivel != 4){
-		bool hay_plan = pathFinding (sensores.nivel, actual, destino, plan);
-	}
-	else {
-		// Estoy en el nivel 2
-		cout << "Aún no implementado el nivel 2" << endl;
-	}
+      }
+       
+    }   
+  else {
+    // Estoy en el nivel 2
+    cout << "Aún no implementado el nivel 2" << endl;
+  }
 
   return accion;
 }
@@ -327,7 +333,7 @@ bool ComportamientoJugador::pathFinding_CostoUniforme(const estado &origen, cons
 	cout << "Calculando plan\n";
 	plan.clear();
 	set<estado,ComparaEstados> generados; // Lista de Cerrados
-	set<nodo, ComparaBateria> setNodos;											// Lista de Abiertos
+	multiset<nodo, ComparaBateria> setNodos;											// Lista de Abiertos
 
   nodo current;
 	current.st = origen;
@@ -337,8 +343,11 @@ bool ComportamientoJugador::pathFinding_CostoUniforme(const estado &origen, cons
 	setNodos.insert(current);
 
   while (!setNodos.empty() and (current.st.fila!=destino.fila or current.st.columna != destino.columna)){
-
+	  	//cout << current.st.fila << " " << current.st.columna <<  current.st.orientacion << endl;
+		//cout << "el numero de set es " << setNodos.size() << endl;
+		
 		setNodos.erase(setNodos.begin());
+		//cout << "el numero de set es " << setNodos.size() << endl;
 		generados.insert(current.st);
 
 		// Generar descendiente de girar a la derecha
@@ -348,6 +357,7 @@ bool ComportamientoJugador::pathFinding_CostoUniforme(const estado &origen, cons
 			const char terreno = mapaResultado[hijoTurnR.st.fila][hijoTurnR.st.columna];
 			cambiarBateria(hijoTurnR, terreno);
 			hijoTurnR.secuencia.push_back(actTURN_R);
+			//cout << "añadimos nodo con bateria " << hijoTurnR.bateria << endl;
 			setNodos.insert(hijoTurnR);
 
 		}
@@ -359,6 +369,7 @@ bool ComportamientoJugador::pathFinding_CostoUniforme(const estado &origen, cons
 			const char terreno = mapaResultado[hijoTurnL.st.fila][hijoTurnL.st.columna];
 			cambiarBateria(hijoTurnL, terreno);
 			hijoTurnL.secuencia.push_back(actTURN_L);
+			//cout << "añadimos nodo con bateria " << hijoTurnR.bateria << endl;
 			setNodos.insert(hijoTurnL);
 		}
 
@@ -370,16 +381,17 @@ bool ComportamientoJugador::pathFinding_CostoUniforme(const estado &origen, cons
 				cambiarAtributos(hijoForward, terreno);
 				cambiarBateria(hijoForward, terreno);
 				hijoForward.secuencia.push_back(actFORWARD);
+				//cout << "añadimos nodo con bateria " << hijoTurnR.bateria << endl;
 				setNodos.insert(hijoForward);
 			}
 		}
 
 		// Tomo el siguiente valor del set
 		if (!setNodos.empty()){
-			current = (*setNodos.begin());
+			current = *(setNodos.begin());
 		}
 	}
-
+	
   cout << "Terminada la busqueda\n";
 
 	if (current.st.fila == destino.fila and current.st.columna == destino.columna){
