@@ -38,7 +38,7 @@ Action ComportamientoJugador::think(Sensores sensores) {
         plan.erase(plan.begin());
       }
       else {
-
+		
         // aquí entraría si no se ha encontrado un comportamiento o está mal implementado
         cout << "Plan mal implementado o no se ha encontrado " << endl;
 
@@ -47,12 +47,117 @@ Action ComportamientoJugador::think(Sensores sensores) {
     }   
   else {
     // Estoy en el nivel 2
-    cout << "Aún no implementado el nivel 2" << endl;
+    nivel2(sensores);
   }
 
   return accion;
 }
 
+void ComportamientoJugador::nivel2(Sensores sensores){
+	while ((current.st.fila!=destino.fila) or (current.st.columna != destino.columna)){
+		ampliarHorizonte(sensores);
+		set = fronteraCercana();
+		for (int i = 0; i < set.size(); i++){
+			hayplan = pathFinding(2, actual, (*set.begin()), plan);
+			if (hayplan) break;
+		}
+		if( hayplan and plan.size() > 0) {
+			accion = plan.front();
+			plan.erase(plan.begin());
+		}
+	}
+}
+
+
+void fronteraCercana(){
+	int distancia = 0;
+	set<posicion, ComparaDistancia> setDistancias;
+	for (int fila = -3; fila < 4; fila++)
+		for (int col = -3; col < 4; col++){
+			int fila_a = sensores.posF+fila; 
+			int col_a = sensores.posC+col;
+			if ((mapaResultado[fila_a][col_a] != P)  and (mapaResultado[fila_a][col_a] != M)){
+				distancia = calcularDistancia(sensores.posF+fila, sensores.posC+col);
+				posicion = {fila, columna, distancia};
+				setDistancias.insert(posicion);
+			}
+			
+		}
+}
+
+void ComportamientoJugador::ampliarHorizonte(Sensores sensores){
+	for (int i = 0; i < 4; i++){
+		rellenarMatriz(sensores);
+		actTURN_R;
+	}
+}
+// el caso norte con respecto al este cambia fila = -columna, columna= fila, cambiar!
+void ComportamientoJugador::rellenarMatriz(Sensores sensores){
+	mapaResultado[sensores.posF][sensores.posC] = sensores.terreno[0];
+	int fila = sensores.posF;
+	int columna = sensores.posC;
+	switch(sensores.sentido){
+		case norte:
+			fila = -columna;
+			columna = fila;
+			/*mapaResultado[sensores.posF-1][sensores.posC-1]=sensores.terreno][1];
+			mapaResultado[sensores.posF-1][sensores.posC] = sensores.terreno[2];
+			mapaResultado[sensores.posF-1][sensores.posC+1] = sensores.terreno[3];
+			mapaResultado[sensores.posF-2][sensores.posC-2]=sensores.terreno][4];
+			mapaResultado[sensores.posF-2][sensores.posC-1] = sensores.terreno[5];
+			mapaResultado[sensores.posF-2][sensores.posC]=sensores.terreno][6];
+			mapaResultado[sensores.posF-2][sensores.posC+1] = sensores.terreno[7];
+			mapaResultado[sensores.posF-2][sensores.posC+2]=sensores.terreno][8];
+			mapaResultado[sensores.posF-3][sensores.posC-3] = sensores.terreno[9];
+			mapaResultado[sensores.posF-3][sensores.posC-2]=sensores.terreno][10];
+			mapaResultado[sensores.posF-3][sensores.posC-1]=sensores.terreno][11];
+			mapaResultado[sensores.posF-3][sensores.posC]=sensores.terreno][12];
+			mapaResultado[sensores.posF-3][sensores.posC+1]=sensores.terreno][13];
+			mapaResultado[sensores.posF-3][sensores.posC+2]=sensores.terreno][14];
+			mapaResultado[sensores.posF-3][sensores.posC+3]=sensores.terreno][15];*/
+		break;
+		case este:
+			/*mapaResultado[sensores.posF-1][sensores.posC+1]=sensores.terreno][1];
+			mapaResultado[sensores.posF][sensores.posC+1] = sensores.terreno[2];
+			mapaResultado[sensores.posF+1][sensores.posC+1] = sensores.terreno[3];
+			mapaResultado[sensores.posF-2][sensores.posC+2]=sensores.terreno][4];
+			mapaResultado[sensores.posF-1][sensores.posC+2] = sensores.terreno[5];
+			mapaResultado[sensores.posF][sensores.posC+2]=sensores.terreno][6];
+			mapaResultado[sensores.posF+1][sensores.posC+2] = sensores.terreno[7];
+			mapaResultado[sensores.posF+2][sensores.posC+2]=sensores.terreno][8];
+			mapaResultado[sensores.posF-3][sensores.posC+3] = sensores.terreno[9];
+			mapaResultado[sensores.posF-2][sensores.posC+3]=sensores.terreno][10];
+			mapaResultado[sensores.posF-1][sensores.posC+3]=sensores.terreno][11];
+			mapaResultado[sensores.posF][sensores.posC+3]=sensores.terreno][12];
+			mapaResultado[sensores.posF+1][sensores.posC+3]=sensores.terreno][13];
+			mapaResultado[sensores.posF+2][sensores.posC+3]=sensores.terreno][14];
+			mapaResultado[sensores.posF+3][sensores.posC+3]=sensores.terreno][15];*/
+		break;
+		case sur:
+			fila = columna;
+			columna = - fila;
+		break;
+		case oeste:
+			fila = -fila;
+			columna = -columna;
+		break;
+	}
+	mapaResultado[fila-1][columna+1]=sensores.terreno[1];
+	mapaResultado[fila][columna+1] = sensores.terreno[2];
+	mapaResultado[fila+1][columna+1] = sensores.terreno[3];
+	mapaResultado[fila-2][columna+2]=sensores.terreno[4];
+	mapaResultado[fila-1][columna+2] = sensores.terreno[5];
+	mapaResultado[fila][columna+2]=sensores.terreno[6];
+	mapaResultado[fila+1][columna+2] = sensores.terreno[7];
+	mapaResultado[fila+2][columna+2]=sensores.terreno[8];
+	mapaResultado[fila-3][columna+3] = sensores.terreno[9];
+	mapaResultado[fila-2][columna+3]=sensores.terreno[10];
+	mapaResultado[fila-1][columna+3]=sensores.terreno[11];
+	mapaResultado[fila][columna+3]=sensores.terreno[12];
+	mapaResultado[fila+1][columna+3]=sensores.terreno[13];
+	mapaResultado[fila+2][columna+3]=sensores.terreno[14];
+	mapaResultado[fila+3][columna+3]=sensores.terreno[15];
+}
 
 // Llama al algoritmo de busqueda que se usará en cada comportamiento del agente
 // Level representa el comportamiento en el que fue iniciado el agente.

@@ -58,6 +58,8 @@ class ComportamientoJugador : public Comportamiento {
     bool pathFinding_CostoUniforme(const estado &origen, const estado &destino, list<Action> &plan);
     void PintaPlan(list<Action> plan);
     bool HayObstaculoDelante(estado &st);
+    void rellenarMatriz(Sensores sensores);
+    void ampliarHorizonte(Sensores sensores);
     
 
 };
