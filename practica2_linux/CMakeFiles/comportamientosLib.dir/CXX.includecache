@@ -43,6 +43,8 @@ comportamientos/comportamiento.hpp
 /home/celia/GitProjects/ia/practica2_linux/Comportamientos_Jugador/comportamientos/comportamiento.hpp
 list
 -
+set
+-
 
 /home/celia/GitProjects/ia/practica2_linux/src/comportamientos/comportamiento.cpp
 comportamientos/comportamiento.hpp

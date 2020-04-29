@@ -4,8 +4,22 @@
 #include "comportamientos/comportamiento.hpp"
 
 #include <list>
+#include <set>
 
+struct posicion{
+	int fila;
+	int columna;
+	double distancia;
+};
 
+struct ComparaDistancia{
+	bool operator()(const posicion &a, const posicion &n) const{
+		if (a.distancia < n.distancia)
+			return true;
+		else
+			return false;
+	}
+};
 
 struct estado {
   int fila;
@@ -60,7 +74,8 @@ class ComportamientoJugador : public Comportamiento {
     bool HayObstaculoDelante(estado &st);
     void rellenarMatriz(Sensores sensores);
     void ampliarHorizonte(Sensores sensores);
-    
+    bool nivel2(Sensores sensores);
+    set<posicion, ComparaDistancia> fronteraCercana(Sensores sensores);
 
 };
 

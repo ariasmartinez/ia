@@ -47,44 +47,21 @@ Action ComportamientoJugador::think(Sensores sensores) {
     }   
   else {
     // Estoy en el nivel 2
-    nivel2(sensores);
-  }
-
-  return accion;
-}
-
-void ComportamientoJugador::nivel2(Sensores sensores){
-	while ((current.st.fila!=destino.fila) or (current.st.columna != destino.columna)){
-		ampliarHorizonte(sensores);
-		set = fronteraCercana();
-		for (int i = 0; i < set.size(); i++){
-			hayplan = pathFinding(2, actual, (*set.begin()), plan);
-			if (hayplan) break;
-		}
+	
+    	if (plan.empty())
+			hayplan = nivel2(sensores);
 		if( hayplan and plan.size() > 0) {
 			accion = plan.front();
 			plan.erase(plan.begin());
 		}
-	}
-}
-
-
-void fronteraCercana(){
-	int distancia = 0;
-	set<posicion, ComparaDistancia> setDistancias;
-	for (int fila = -3; fila < 4; fila++)
-		for (int col = -3; col < 4; col++){
-			int fila_a = sensores.posF+fila; 
-			int col_a = sensores.posC+col;
-			if ((mapaResultado[fila_a][col_a] != P)  and (mapaResultado[fila_a][col_a] != M)){
-				distancia = calcularDistancia(sensores.posF+fila, sensores.posC+col);
-				posicion = {fila, columna, distancia};
-				setDistancias.insert(posicion);
-			}
-			
+		else{
+			cout << "No se puede encontrar un camino que lleve al destino"<< endl;
 		}
-}
+	
+  }
 
+  return accion;
+}
 void ComportamientoJugador::ampliarHorizonte(Sensores sensores){
 	for (int i = 0; i < 4; i++){
 		rellenarMatriz(sensores);
@@ -93,6 +70,7 @@ void ComportamientoJugador::ampliarHorizonte(Sensores sensores){
 }
 // el caso norte con respecto al este cambia fila = -columna, columna= fila, cambiar!
 void ComportamientoJugador::rellenarMatriz(Sensores sensores){
+	cout << "RellenaMatriz::"<< endl;
 	mapaResultado[sensores.posF][sensores.posC] = sensores.terreno[0];
 	int fila = sensores.posF;
 	int columna = sensores.posC;
@@ -142,6 +120,7 @@ void ComportamientoJugador::rellenarMatriz(Sensores sensores){
 			columna = -columna;
 		break;
 	}
+	
 	mapaResultado[fila-1][columna+1]=sensores.terreno[1];
 	mapaResultado[fila][columna+1] = sensores.terreno[2];
 	mapaResultado[fila+1][columna+1] = sensores.terreno[3];
@@ -158,6 +137,53 @@ void ComportamientoJugador::rellenarMatriz(Sensores sensores){
 	mapaResultado[fila+2][columna+3]=sensores.terreno[14];
 	mapaResultado[fila+3][columna+3]=sensores.terreno[15];
 }
+
+double calcularDistancia(int fila, int columna, int d_fila, int d_col){
+	return sqrt((d_fila-fila)^2+(d_col-columna)^2);
+}
+
+set<posicion, ComparaDistancia> ComportamientoJugador::fronteraCercana(Sensores sensores){
+	cout << "fronteraCercana:: "<< endl;
+	double distancia = 0;
+	set<posicion, ComparaDistancia> setDistancias;
+	posicion posible_frontera;
+	for (int fila = -3; fila < 4; fila++)
+		for (int col = -3; col < 4; col++){
+			int fila_a = sensores.posF+fila; 
+			int col_a = sensores.posC+col;
+			if ((mapaResultado[fila_a][col_a] != 'P')  and (mapaResultado[fila_a][col_a] != 'M')){
+				distancia = calcularDistancia(sensores.posF+fila, sensores.posC+col, destino.fila, destino.columna);
+				posible_frontera.fila = fila_a; posible_frontera.columna = col_a; posible_frontera.distancia = distancia;
+				//posicion = {fila, columna, distancia};
+				setDistancias.insert(posible_frontera);
+			}
+			
+		}
+	return setDistancias;
+}
+
+bool ComportamientoJugador::nivel2(Sensores sensores){
+	cout << "nivel2::" << endl;
+		hayplan = false;
+	
+		ampliarHorizonte(sensores);
+		set<posicion, ComparaDistancia> posibles_fronteras = fronteraCercana(sensores);
+		cout <<"hay " << posibles_fronteras.size() << " posibles fronteras" << endl;
+		for (std::set<posicion, ComparaDistancia>::iterator it=posibles_fronteras.begin(); it!=posibles_fronteras.end(); ++it){
+			estado estado_posible ={(*it).fila, (*it).columna, -1};
+			hayplan = pathFinding(2, actual, estado_posible, plan);
+			if (hayplan) break;
+		}
+		cout << "ya hemos visto todas las fronteras, hay plan es " << hayplan << endl;
+	
+	return hayplan;
+}
+
+
+
+
+
+
 
 // Llama al algoritmo de busqueda que se usará en cada comportamiento del agente
 // Level representa el comportamiento en el que fue iniciado el agente.
