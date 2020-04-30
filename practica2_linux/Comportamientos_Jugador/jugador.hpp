@@ -73,7 +73,7 @@ class ComportamientoJugador : public Comportamiento {
     void PintaPlan(list<Action> plan);
     bool HayObstaculoDelante(estado &st);
     void rellenarMatriz(Sensores sensores);
-    void ampliarHorizonte(Sensores sensores);
+    bool ampliarHorizonte(Sensores sensores);
     bool nivel2(Sensores sensores);
     set<posicion, ComparaDistancia> fronteraCercana(Sensores sensores);
 

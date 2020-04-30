@@ -11,10 +11,12 @@
 
 using namespace std;
 
+int ampliar_horizonte = 0;
 // Este es el método principal que debe contener los 4 Comportamientos_Jugador
 // que se piden en la práctica. Tiene como entrada la información de los
 // sensores y devuelve la acción a realizar.
 Action ComportamientoJugador::think(Sensores sensores) {
+	cout << "think::"<< endl;
 	Action accion = actIDLE;
   // Estoy en el nivel 1
   if (sensores.nivel != 4){
@@ -34,6 +36,7 @@ Action ComportamientoJugador::think(Sensores sensores) {
       }
 	 
       if( hayplan and plan.size() > 0) {
+		
         accion = plan.front();
         plan.erase(plan.begin());
       }
@@ -47,10 +50,22 @@ Action ComportamientoJugador::think(Sensores sensores) {
     }   
   else {
     // Estoy en el nivel 2
-	
-    	if (plan.empty())
-			hayplan = nivel2(sensores);
+		
+    	if (plan.empty()){
+
+			
+			
+			if (ampliar_horizonte < 4){
+				rellenarMatriz(sensores);
+				accion = actTURN_L;
+			}
+			else{
+				ampliar_horizonte = 0;
+				hayplan = nivel2(sensores);
+			}
+		}
 		if( hayplan and plan.size() > 0) {
+			cout << "estamos en la casilla " << mapaResultado[sensores.posF][sensores.posC] <<  endl; 
 			accion = plan.front();
 			plan.erase(plan.begin());
 		}
@@ -62,84 +77,179 @@ Action ComportamientoJugador::think(Sensores sensores) {
 
   return accion;
 }
-void ComportamientoJugador::ampliarHorizonte(Sensores sensores){
-	for (int i = 0; i < 4; i++){
-		rellenarMatriz(sensores);
-		actTURN_R;
+bool ComportamientoJugador::ampliarHorizonte(Sensores sensores){
+	int fil=sensores.posF, col=sensores.posC;
+
+	switch (sensores.sentido) {
+		case 0: fil--; break;
+		case 1: col++; break;
+		case 2: fil++; break;
+		case 3: col--; break;
 	}
+
+	// Compruebo que no me salgo fuera del rango del mapa
+	if (fil<0 or fil>=mapaResultado.size()) return true;
+	if (col<0 or col>=mapaResultado[0].size()) return true;
+
+	// Miro si en esa casilla hay un obstaculo infranqueable
+	if ((mapaResultado[fil][col]) == '?')
+		return true;
+	else
+	  	return false;
+	
 }
+
+// HAY QUE COMPROBAR QUE NO SEA NEGATIVO
 // el caso norte con respecto al este cambia fila = -columna, columna= fila, cambiar!
 void ComportamientoJugador::rellenarMatriz(Sensores sensores){
 	cout << "RellenaMatriz::"<< endl;
+	ampliar_horizonte++;
 	mapaResultado[sensores.posF][sensores.posC] = sensores.terreno[0];
 	int fila = sensores.posF;
 	int columna = sensores.posC;
+	int fila_def = fila;
+	int addfila ;
+	int addcol;
 	switch(sensores.sentido){
-		case norte:
-			fila = -columna;
-			columna = fila;
-			/*mapaResultado[sensores.posF-1][sensores.posC-1]=sensores.terreno][1];
+		case 0: //norte :: fila = -columna; col = fila
+		
+			if (((fila-1) < mapaResultado.size()) && ((columna-1) < mapaResultado.size()) && ((fila-1)>0) && ((columna-1)>0))
+			mapaResultado[sensores.posF-1][sensores.posC-1]=sensores.terreno[1];
+			if (((fila-1) < mapaResultado.size()) && ((columna) < mapaResultado.size()) && ((fila-1)>0) && ((columna)>0))
 			mapaResultado[sensores.posF-1][sensores.posC] = sensores.terreno[2];
+			if (((fila-1) < mapaResultado.size()) && ((columna+1) < mapaResultado.size())&& ((fila-1)>0) && ((columna+1)>0))
 			mapaResultado[sensores.posF-1][sensores.posC+1] = sensores.terreno[3];
-			mapaResultado[sensores.posF-2][sensores.posC-2]=sensores.terreno][4];
+			if (((fila-2) < mapaResultado.size()) && ((columna-2) < mapaResultado.size())&& ((fila-2)>0) && ((columna-2)>0))
+			mapaResultado[sensores.posF-2][sensores.posC-2]=sensores.terreno[4];
+			if (((fila-2) < mapaResultado.size()) && ((columna-1) < mapaResultado.size())&& ((fila-2)>0) && ((columna-1)>0))
 			mapaResultado[sensores.posF-2][sensores.posC-1] = sensores.terreno[5];
-			mapaResultado[sensores.posF-2][sensores.posC]=sensores.terreno][6];
+			if (((fila-2) < mapaResultado.size()) && ((columna) < mapaResultado.size())&& ((fila-2)>0) && ((columna)>0))
+			mapaResultado[sensores.posF-2][sensores.posC]=sensores.terreno[6];
+			if (((fila-2) < mapaResultado.size()) && ((columna+1) < mapaResultado.size())&& ((fila-2)>0) && ((columna+1)>0))
 			mapaResultado[sensores.posF-2][sensores.posC+1] = sensores.terreno[7];
-			mapaResultado[sensores.posF-2][sensores.posC+2]=sensores.terreno][8];
+			if (((fila-2) < mapaResultado.size()) && ((columna+2) < mapaResultado.size())&& ((fila-2)>0) && ((columna+2)>0))
+			mapaResultado[sensores.posF-2][sensores.posC+2]=sensores.terreno[8];
+			if (((fila-3) < mapaResultado.size()) && ((columna-3) < mapaResultado.size())&& ((fila-3)>0) && ((columna-3)>0))
 			mapaResultado[sensores.posF-3][sensores.posC-3] = sensores.terreno[9];
-			mapaResultado[sensores.posF-3][sensores.posC-2]=sensores.terreno][10];
-			mapaResultado[sensores.posF-3][sensores.posC-1]=sensores.terreno][11];
-			mapaResultado[sensores.posF-3][sensores.posC]=sensores.terreno][12];
-			mapaResultado[sensores.posF-3][sensores.posC+1]=sensores.terreno][13];
-			mapaResultado[sensores.posF-3][sensores.posC+2]=sensores.terreno][14];
-			mapaResultado[sensores.posF-3][sensores.posC+3]=sensores.terreno][15];*/
+			if (((fila-3) < mapaResultado.size()) && ((columna-2) < mapaResultado.size())&& ((fila-3)>0) && ((columna-2)>0))
+			mapaResultado[sensores.posF-3][sensores.posC-2]=sensores.terreno[10];
+			if (((fila-3) < mapaResultado.size()) && ((columna-1) < mapaResultado.size())&& ((fila-3)>0) && ((columna-1)>0))
+			mapaResultado[sensores.posF-3][sensores.posC-1]=sensores.terreno[11];
+			if (((fila-3) < mapaResultado.size()) && ((columna) < mapaResultado.size())&& ((fila-3)>0) && ((columna)>0))
+			mapaResultado[sensores.posF-3][sensores.posC]=sensores.terreno[12];
+			if (((fila-3) < mapaResultado.size()) && ((columna+1) < mapaResultado.size())&& ((fila-3)>0) && ((columna+1)>0))
+			mapaResultado[sensores.posF-3][sensores.posC+1]=sensores.terreno[13];
+			if (((fila-3) < mapaResultado.size()) && ((columna+2) < mapaResultado.size())&& ((fila-3)>0) && ((columna+2)>0))
+			mapaResultado[sensores.posF-3][sensores.posC+2]=sensores.terreno[14];
+			if (((fila-3) < mapaResultado.size()) && ((columna+3) < mapaResultado.size())&& ((fila-3)>0) && ((columna+3)>0))
+			mapaResultado[sensores.posF-3][sensores.posC+3]=sensores.terreno[15];
 		break;
-		case este:
-			/*mapaResultado[sensores.posF-1][sensores.posC+1]=sensores.terreno][1];
+		case 1: //este
+		
+			if (((fila-1) < mapaResultado.size()) && ((columna+1) < mapaResultado.size())&& ((fila-1)>0) && ((columna+1)>0))
+			mapaResultado[sensores.posF-1][sensores.posC+1]=sensores.terreno[1];
+			if (((fila) < mapaResultado.size()) && ((columna+1) < mapaResultado.size())&& ((fila)>0) && ((columna+1)>0))
 			mapaResultado[sensores.posF][sensores.posC+1] = sensores.terreno[2];
+			if (((fila+1) < mapaResultado.size()) && ((columna+1) < mapaResultado.size())&& ((fila+1)>0) && ((columna+1)>0))
 			mapaResultado[sensores.posF+1][sensores.posC+1] = sensores.terreno[3];
-			mapaResultado[sensores.posF-2][sensores.posC+2]=sensores.terreno][4];
+			if (((fila-2) < mapaResultado.size()) && ((columna+2) < mapaResultado.size())&& ((fila+1)>0) && ((columna+1)>0))
+			mapaResultado[sensores.posF-2][sensores.posC+2]=sensores.terreno[4];
+			if (((fila-1) < mapaResultado.size()) && ((columna+2) < mapaResultado.size())&& ((fila-1)>0) && ((columna+2)>0))
 			mapaResultado[sensores.posF-1][sensores.posC+2] = sensores.terreno[5];
-			mapaResultado[sensores.posF][sensores.posC+2]=sensores.terreno][6];
+			if (((fila) < mapaResultado.size()) && ((columna+2) < mapaResultado.size())&& ((fila)>0) && ((columna+2)>0))
+			mapaResultado[sensores.posF][sensores.posC+2]=sensores.terreno[6];
+			if (((fila+1) < mapaResultado.size()) && ((columna+2) < mapaResultado.size())&& ((fila+1)>0) && ((columna+2)>0))
 			mapaResultado[sensores.posF+1][sensores.posC+2] = sensores.terreno[7];
-			mapaResultado[sensores.posF+2][sensores.posC+2]=sensores.terreno][8];
+			if (((fila+2) < mapaResultado.size()) && ((columna+2) < mapaResultado.size())&& ((fila+2)>0) && ((columna+2)>0))
+			mapaResultado[sensores.posF+2][sensores.posC+2]=sensores.terreno[8];
+			if (((fila-3) < mapaResultado.size()) && ((columna+3) < mapaResultado.size())&& ((fila-3)>0) && ((columna+3)>0))
 			mapaResultado[sensores.posF-3][sensores.posC+3] = sensores.terreno[9];
-			mapaResultado[sensores.posF-2][sensores.posC+3]=sensores.terreno][10];
-			mapaResultado[sensores.posF-1][sensores.posC+3]=sensores.terreno][11];
-			mapaResultado[sensores.posF][sensores.posC+3]=sensores.terreno][12];
-			mapaResultado[sensores.posF+1][sensores.posC+3]=sensores.terreno][13];
-			mapaResultado[sensores.posF+2][sensores.posC+3]=sensores.terreno][14];
-			mapaResultado[sensores.posF+3][sensores.posC+3]=sensores.terreno][15];*/
+			if (((fila-2) < mapaResultado.size()) && ((columna+3) < mapaResultado.size())&& ((fila-2)>0) && ((columna+3)>0))
+			mapaResultado[sensores.posF-2][sensores.posC+3]=sensores.terreno[10];
+			if (((fila-1) < mapaResultado.size()) && ((columna+3) < mapaResultado.size())&& ((fila-1)>0) && ((columna+3)>0))
+			mapaResultado[sensores.posF-1][sensores.posC+3]=sensores.terreno[11];
+			if (((fila) < mapaResultado.size()) && ((columna+3) < mapaResultado.size())&& ((fila)>0) && ((columna+3)>0))
+			mapaResultado[sensores.posF][sensores.posC+3]=sensores.terreno[12];
+			if (((fila+1) < mapaResultado.size()) && ((columna+3) < mapaResultado.size())&& ((fila+1)>0) && ((columna+3)>0))
+			mapaResultado[sensores.posF+1][sensores.posC+3]=sensores.terreno[13];
+			if (((fila+2) < mapaResultado.size()) && ((columna+3) < mapaResultado.size())&& ((fila+2)>0) && ((columna+3)>0))
+			mapaResultado[sensores.posF+2][sensores.posC+3]=sensores.terreno[14];
+			if (((fila+3) < mapaResultado.size()) && ((columna+3) < mapaResultado.size())&& ((fila+3)>0) && ((columna+3)>0))
+			mapaResultado[sensores.posF+3][sensores.posC+3]=sensores.terreno[15];
 		break;
-		case sur:
-			fila = columna;
-			columna = - fila;
+		case 2: // sur : fila = col; col = -fila
+			if (((fila+1) < mapaResultado.size()) && ((columna+1) < mapaResultado.size())&& ((fila+1)>0) && ((columna+1)>0))
+				mapaResultado[fila+1][columna+1]=sensores.terreno[1];
+			if (((fila+1) < mapaResultado.size()) && ((columna) < mapaResultado.size())&& ((fila+1)>0) && ((columna)>0))	
+				mapaResultado[fila+1][columna] = sensores.terreno[2];
+			if (((fila+1) < mapaResultado.size()) && ((columna-1) < mapaResultado.size())&& ((fila+1)>0) && ((columna-1)>0))
+				mapaResultado[fila+1][columna-1] = sensores.terreno[3];
+			if (((fila+2) < mapaResultado.size()) && ((columna+2) < mapaResultado.size())&& ((fila+2)>0) && ((columna+2)>0))
+				mapaResultado[fila+2][columna+2]=sensores.terreno[4];
+			if (((fila+2) < mapaResultado.size()) && ((columna+1) < mapaResultado.size())&& ((fila+2)>0) && ((columna+1)>0))
+				mapaResultado[fila+2][columna+1] = sensores.terreno[5];
+			if (((fila+2) < mapaResultado.size()) && ((columna) < mapaResultado.size())&& ((fila+2)>0) && ((columna)>0))
+				mapaResultado[fila+2][columna]=sensores.terreno[6];
+			if (((fila+2) < mapaResultado.size()) && ((columna-1) < mapaResultado.size())&& ((fila+2)>0) && ((columna-1)>0))
+				mapaResultado[fila+2][columna-1] = sensores.terreno[7];
+			if (((fila+2) < mapaResultado.size()) && ((columna-2) < mapaResultado.size())&& ((fila+2)>0) && ((columna-2)>0))
+				mapaResultado[fila+2][columna-2]=sensores.terreno[8];
+			if (((fila+3) < mapaResultado.size()) && ((columna+3) < mapaResultado.size())&& ((fila+3)>0) && ((columna+3)>0))
+				mapaResultado[fila+3][columna+3] = sensores.terreno[9];
+			if (((fila+3) < mapaResultado.size()) && ((columna+2) < mapaResultado.size())&& ((fila+3)>0) && ((columna+2)>0))
+				mapaResultado[fila+3][columna+2]=sensores.terreno[10];
+			if (((fila+3) < mapaResultado.size()) && ((columna+1) < mapaResultado.size())&& ((fila+3)>0) && ((columna+1)>0))
+				mapaResultado[fila+3][columna+1]=sensores.terreno[11];
+			if (((fila+3) < mapaResultado.size()) && ((columna) < mapaResultado.size())&& ((fila+3)>0) && ((columna)>0))
+				mapaResultado[fila+3][columna]=sensores.terreno[12];
+			if (((fila+3) < mapaResultado.size()) && ((columna-1) < mapaResultado.size())&& ((fila+3)>0) && ((columna-1)>0))
+				mapaResultado[fila+3][columna-1]=sensores.terreno[13];
+			if (((fila+3) < mapaResultado.size()) && ((columna-2) < mapaResultado.size())&& ((fila+3)>0) && ((columna-2)>0))
+				mapaResultado[fila+3][columna-2]=sensores.terreno[14];
+			if (((fila+3) < mapaResultado.size()) && ((columna-3) < mapaResultado.size())&& ((fila+3)>0) && ((columna-3)>0))
+				mapaResultado[fila+3][columna-3]=sensores.terreno[15];
 		break;
-		case oeste:
-			fila = -fila;
-			columna = -columna;
+
+		case 3: //oeste
+
+			if (((fila+1) < mapaResultado.size()) && ((columna-1) < mapaResultado.size())&& ((fila+1)>0) && ((columna-1)>0))
+				mapaResultado[fila+1][columna-1]=sensores.terreno[1];
+			if (((fila) < mapaResultado.size()) && ((columna-1) < mapaResultado.size())&& ((fila)>0) && ((columna-1)>0))	
+				mapaResultado[fila][columna-1] = sensores.terreno[2];
+			if (((fila-1) < mapaResultado.size()) && ((columna-1) < mapaResultado.size())&& ((fila-1)>0) && ((columna-1)>0))
+				mapaResultado[fila-1][columna-1] = sensores.terreno[3];
+			if (((fila+2) < mapaResultado.size()) && ((columna-2) < mapaResultado.size())&& ((fila+2)>0) && ((columna-2)>0))
+				mapaResultado[fila+2][columna-2]=sensores.terreno[4];
+			if (((fila+1) < mapaResultado.size()) && ((columna-2) < mapaResultado.size())&& ((fila+1)>0) && ((columna-2)>0))
+				mapaResultado[fila+1][columna-2] = sensores.terreno[5];
+			if (((fila) < mapaResultado.size()) && ((columna-2) < mapaResultado.size())&& ((fila)>0) && ((columna-2)>0))
+				mapaResultado[fila][columna-2]=sensores.terreno[6];
+			if (((fila-1) < mapaResultado.size()) && ((columna-2) < mapaResultado.size())&& ((fila-1)>0) && ((columna-2)>0))
+				mapaResultado[fila-1][columna-2] = sensores.terreno[7];
+			if (((fila-2) < mapaResultado.size()) && ((columna-2) < mapaResultado.size())&& ((fila-2)>0) && ((columna-2)>0))
+				mapaResultado[fila-2][columna-2]=sensores.terreno[8];
+			if (((fila+3) < mapaResultado.size()) && ((columna-3) < mapaResultado.size())&& ((fila+3)>0) && ((columna-3)>0))
+				mapaResultado[fila+3][columna-3] = sensores.terreno[9];
+			if (((fila+2) < mapaResultado.size()) && ((columna-3) < mapaResultado.size())&& ((fila+2)>0) && ((columna-3)>0))
+				mapaResultado[fila+2][columna-3]=sensores.terreno[10];
+			if (((fila+1) < mapaResultado.size()) && ((columna-3) < mapaResultado.size())&& ((fila+1)>0) && ((columna-3)>0))
+				mapaResultado[fila+1][columna-3]=sensores.terreno[11];
+			if (((fila) < mapaResultado.size()) && ((columna-3) < mapaResultado.size())&& ((fila)>0) && ((columna-3)>0))
+				mapaResultado[fila][columna-3]=sensores.terreno[12];
+			if (((fila-1) < mapaResultado.size()) && ((columna-3) < mapaResultado.size())&& ((fila-1)>0) && ((columna-3)>0))
+				mapaResultado[fila-1][columna-3]=sensores.terreno[13];
+			if (((fila-2) < mapaResultado.size()) && ((columna-3) < mapaResultado.size())&& ((fila-2)>0) && ((columna-3)>0))
+				mapaResultado[fila-2][columna-3]=sensores.terreno[14];
+			if (((fila-3) < mapaResultado.size()) && ((columna-3) < mapaResultado.size())&& ((fila-3)>0) && ((columna-3)>0))
+				mapaResultado[fila-3][columna-3]=sensores.terreno[15];
 		break;
 	}
 	
-	mapaResultado[fila-1][columna+1]=sensores.terreno[1];
-	mapaResultado[fila][columna+1] = sensores.terreno[2];
-	mapaResultado[fila+1][columna+1] = sensores.terreno[3];
-	mapaResultado[fila-2][columna+2]=sensores.terreno[4];
-	mapaResultado[fila-1][columna+2] = sensores.terreno[5];
-	mapaResultado[fila][columna+2]=sensores.terreno[6];
-	mapaResultado[fila+1][columna+2] = sensores.terreno[7];
-	mapaResultado[fila+2][columna+2]=sensores.terreno[8];
-	mapaResultado[fila-3][columna+3] = sensores.terreno[9];
-	mapaResultado[fila-2][columna+3]=sensores.terreno[10];
-	mapaResultado[fila-1][columna+3]=sensores.terreno[11];
-	mapaResultado[fila][columna+3]=sensores.terreno[12];
-	mapaResultado[fila+1][columna+3]=sensores.terreno[13];
-	mapaResultado[fila+2][columna+3]=sensores.terreno[14];
-	mapaResultado[fila+3][columna+3]=sensores.terreno[15];
+
 }
 
 double calcularDistancia(int fila, int columna, int d_fila, int d_col){
-	return sqrt((d_fila-fila)^2+(d_col-columna)^2);
+	return sqrt(pow((d_fila-fila),2)+pow((d_col-columna),2));
 }
 
 set<posicion, ComparaDistancia> ComportamientoJugador::fronteraCercana(Sensores sensores){
@@ -151,8 +261,9 @@ set<posicion, ComparaDistancia> ComportamientoJugador::fronteraCercana(Sensores 
 		for (int col = -3; col < 4; col++){
 			int fila_a = sensores.posF+fila; 
 			int col_a = sensores.posC+col;
+			if ((fila_a > 0) && (col_a > 0) && (fila_a < mapaResultado.size()) && (col_a < mapaResultado.size()))
 			if ((mapaResultado[fila_a][col_a] != 'P')  and (mapaResultado[fila_a][col_a] != 'M')){
-				distancia = calcularDistancia(sensores.posF+fila, sensores.posC+col, destino.fila, destino.columna);
+				distancia = calcularDistancia(fila_a, col_a, sensores.destinoF, sensores.destinoC);
 				posible_frontera.fila = fila_a; posible_frontera.columna = col_a; posible_frontera.distancia = distancia;
 				//posicion = {fila, columna, distancia};
 				setDistancias.insert(posible_frontera);
@@ -165,16 +276,27 @@ set<posicion, ComparaDistancia> ComportamientoJugador::fronteraCercana(Sensores 
 bool ComportamientoJugador::nivel2(Sensores sensores){
 	cout << "nivel2::" << endl;
 		hayplan = false;
-	
-		ampliarHorizonte(sensores);
+		estado estado_posible;
+		
+			//ampliarHorizonte(sensores);
+		
+		 actual.fila        = sensores.posF;
+         actual.columna     = sensores.posC;
+         actual.orientacion = sensores.sentido;
 		set<posicion, ComparaDistancia> posibles_fronteras = fronteraCercana(sensores);
 		cout <<"hay " << posibles_fronteras.size() << " posibles fronteras" << endl;
 		for (std::set<posicion, ComparaDistancia>::iterator it=posibles_fronteras.begin(); it!=posibles_fronteras.end(); ++it){
-			estado estado_posible ={(*it).fila, (*it).columna, -1};
-			hayplan = pathFinding(2, actual, estado_posible, plan);
-			if (hayplan) break;
+			estado_posible ={(*it).fila, (*it).columna, -1};
+			cout << "probamos con el nodo " << (*it).fila << " " << (*it).columna << " " << (*it).distancia << endl;
+			hayplan = pathFinding(3, actual, estado_posible, plan);
+			if (hayplan){
+				cout << "tenemos plan para ir a la casilla " << estado_posible.fila << " " << estado_posible.columna << endl;
+				
+				break;
+			}
 		}
-		cout << "ya hemos visto todas las fronteras, hay plan es " << hayplan << endl;
+		
+		cout << "ya hemos visto todas las fronteras, nos movemos de la casilla " << actual.fila << actual.columna << " a la casilla  " << estado_posible.fila << estado_posible.columna << endl;
 	
 	return hayplan;
 }
@@ -382,7 +504,7 @@ bool ComportamientoJugador::pathFinding_Profundidad(const estado &origen, const 
 
 bool ComportamientoJugador::pathFinding_Anchura(const estado &origen, const estado &destino, list<Action> &plan) {
 	//Borro la lista
-	cout << "Calculando plan\n";
+	cout << "Calculando plan anchura\n";
 	plan.clear();
 	set<estado,ComparaEstados> generados; // Lista de Cerrados
 	queue<nodo> cola;											// Lista de Abiertos
