@@ -37,6 +37,8 @@ stack
 -
 queue
 -
+cstring
+-
 
 /home/celia/GitProjects/ia/practica2_linux/Comportamientos_Jugador/jugador.hpp
 comportamientos/comportamiento.hpp

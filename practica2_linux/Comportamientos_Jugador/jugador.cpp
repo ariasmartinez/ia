@@ -7,11 +7,14 @@
 
 #include <stack>
 #include <queue>
+#include <cstring>
+		
 
 
 using namespace std;
 
 int ampliar_horizonte = 0;
+int num_aldeano = 0;
 // Este es el método principal que debe contener los 4 Comportamientos_Jugador
 // que se piden en la práctica. Tiene como entrada la información de los
 // sensores y devuelve la acción a realizar.
@@ -38,6 +41,7 @@ Action ComportamientoJugador::think(Sensores sensores) {
       if( hayplan and plan.size() > 0) {
 		
         accion = plan.front();
+		
         plan.erase(plan.begin());
       }
       else {
@@ -67,7 +71,43 @@ Action ComportamientoJugador::think(Sensores sensores) {
 		if( hayplan and plan.size() > 0) {
 			cout << "estamos en la casilla " << mapaResultado[sensores.posF][sensores.posC] <<  endl; 
 			accion = plan.front();
+			cout << "think:: el prox movimiento es "<< accion << endl;
 			plan.erase(plan.begin());
+			switch(accion){
+				case 0:
+					cout << "think:: la proxima casilla es "<< sensores.terreno[2] << " " << sensores.superficie[2]<< endl;
+					//hay que ver por que no localiza que es un precipicio antes
+					if(ampliarHorizonte(sensores)){
+						plan.clear();
+						accion = actIDLE;
+					}
+
+
+					//una opcion: seguir con el plan mientras que no se mate
+					/*if ((sensores.terreno[2] == 'M') or (sensores.terreno[2] == 'P')){
+						plan.clear();
+						accion = actIDLE;
+					}
+					*/
+					
+					else if (sensores.superficie[2] == 'a'){
+						cout << "think:: elseif a" << endl;
+						if (num_aldeano == 0){
+							cout << "think:: numaldeano = 0" << endl;
+							plan.push_front(accion);
+							accion = actIDLE;
+							num_aldeano++;
+						}
+						else{
+							cout << "think:: numaldeano != 0" << endl;
+							accion = actIDLE;
+							plan.clear();
+							num_aldeano = 0;
+						}
+					}
+				break;
+			}
+			
 		}
 		else{
 			cout << "No se puede encontrar un camino que lleve al destino"<< endl;
