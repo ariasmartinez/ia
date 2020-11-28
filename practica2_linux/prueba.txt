@@ -1,0 +1,4460 @@
+tiempo simulacion: 2999
+bateria:: 3000
+Busqueda para el reto
+Calculando plan
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 0
+
+tiempo simulacion: 2998
+bateria:: 2998
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo avance:: 8 12 ?
+coste nodo: 45
+estudiamos nodo:: 8 12 ?
+generamos nodo:: 8 12 ?
+generamos nodo:: 8 12 ?
+generamos nodo avance:: 7 12 ?
+coste nodo: 56
+estudiamos nodo:: 7 12 ?
+generamos nodo:: 7 12 ?
+generamos nodo:: 7 12 ?
+generamos nodo avance:: 6 12 ?
+coste nodo: 65
+estudiamos nodo:: 8 12 ?
+generamos nodo:: 8 12 ?
+generamos nodo avance:: 8 11 ?
+coste nodo: 70
+estudiamos nodo:: 8 12 ?
+generamos nodo:: 8 12 ?
+generamos nodo avance:: 8 13 T
+coste nodo: 96
+estudiamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo avance:: 9 11 ?
+coste nodo: 75
+estudiamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo avance:: 9 13 A
+coste nodo: 1768
+estudiamos nodo:: 6 12 ?
+generamos nodo:: 6 12 ?
+generamos nodo:: 6 12 ?
+generamos nodo avance:: 5 12 ?
+coste nodo: 72
+estudiamos nodo:: 8 11 ?
+generamos nodo:: 8 11 ?
+generamos nodo:: 8 11 ?
+generamos nodo avance:: 8 10 ?
+coste nodo: 78
+estudiamos nodo:: 7 12 ?
+generamos nodo:: 7 12 ?
+generamos nodo avance:: 7 11 ?
+coste nodo: 78
+estudiamos nodo:: 7 12 ?
+generamos nodo:: 7 12 ?
+generamos nodo avance:: 7 13 ?
+coste nodo: 90
+estudiamos nodo:: 5 12 ?
+generamos nodo:: 5 12 ?
+generamos nodo:: 5 12 ?
+generamos nodo avance:: 4 12 ?
+coste nodo: 77
+estudiamos nodo:: 9 11 ?
+generamos nodo:: 9 11 ?
+generamos nodo:: 9 11 ?
+generamos nodo avance:: 9 10 ?
+coste nodo: 84
+estudiamos nodo:: 8 12 ?
+generamos nodo avance:: 9 12 T
+coste nodo: 112
+estudiamos nodo:: 8 12 ?
+generamos nodo avance:: 9 12 T
+coste nodo: 112
+estudiamos nodo:: 4 12 ?
+generamos nodo:: 4 12 ?
+generamos nodo:: 4 12 ?
+generamos nodo avance:: 3 12 ?
+coste nodo: 80
+estudiamos nodo:: 8 10 ?
+generamos nodo:: 8 10 ?
+generamos nodo:: 8 10 ?
+generamos nodo avance:: 8 9 ?
+coste nodo: 84
+estudiamos nodo:: 7 11 ?
+generamos nodo:: 7 11 ?
+generamos nodo:: 7 11 ?
+generamos nodo avance:: 7 10 ?
+coste nodo: 84
+estudiamos nodo:: 6 12 ?
+generamos nodo:: 6 12 ?
+generamos nodo avance:: 6 11 ?
+coste nodo: 84
+estudiamos nodo:: 6 12 ?
+generamos nodo:: 6 12 ?
+generamos nodo avance:: 6 13 ?
+coste nodo: 98
+estudiamos nodo:: 3 12 ?
+generamos nodo:: 3 12 ?
+generamos nodo:: 3 12 ?
+generamos nodo avance:: 2 12 ?
+coste nodo: 99
+estudiamos nodo:: 9 10 ?
+generamos nodo:: 9 10 ?
+generamos nodo:: 9 10 ?
+generamos nodo avance:: 9 9 ?
+coste nodo: 91
+estudiamos nodo:: 8 11 ?
+generamos nodo:: 8 11 ?
+generamos nodo avance:: 9 11 ?
+coste nodo: 105
+estudiamos nodo:: 8 11 ?
+generamos nodo:: 8 11 ?
+generamos nodo avance:: 7 11 ?
+coste nodo: 91
+estudiamos nodo:: 8 9 ?
+generamos nodo:: 8 9 ?
+generamos nodo:: 8 9 ?
+generamos nodo avance:: 8 8 ?
+coste nodo: 88
+estudiamos nodo:: 7 12 ?
+estudiamos nodo:: 7 12 ?
+estudiamos nodo:: 7 10 ?
+generamos nodo:: 7 10 ?
+generamos nodo:: 7 10 ?
+generamos nodo avance:: 7 9 ?
+coste nodo: 88
+estudiamos nodo:: 6 11 ?
+generamos nodo:: 6 11 ?
+generamos nodo:: 6 11 ?
+generamos nodo avance:: 6 10 ?
+coste nodo: 88
+estudiamos nodo:: 5 12 ?
+generamos nodo:: 5 12 ?
+generamos nodo avance:: 5 11 ?
+coste nodo: 88
+estudiamos nodo:: 5 12 ?
+generamos nodo:: 5 12 ?
+generamos nodo avance:: 5 13 ?
+coste nodo: 104
+estudiamos nodo:: 8 8 ?
+generamos nodo:: 8 8 ?
+generamos nodo:: 8 8 ?
+generamos nodo avance:: 8 7 ?
+coste nodo: 90
+estudiamos nodo:: 7 9 ?
+generamos nodo:: 7 9 ?
+generamos nodo:: 7 9 ?
+generamos nodo avance:: 7 8 ?
+coste nodo: 90
+estudiamos nodo:: 6 10 ?
+generamos nodo:: 6 10 ?
+generamos nodo:: 6 10 ?
+generamos nodo avance:: 6 9 ?
+coste nodo: 90
+estudiamos nodo:: 5 11 ?
+generamos nodo:: 5 11 ?
+generamos nodo:: 5 11 ?
+generamos nodo avance:: 5 10 ?
+coste nodo: 90
+estudiamos nodo:: 4 12 ?
+generamos nodo:: 4 12 ?
+generamos nodo avance:: 4 11 ?
+coste nodo: 90
+estudiamos nodo:: 4 12 ?
+generamos nodo:: 4 12 ?
+generamos nodo avance:: 4 13 ?
+coste nodo: 108
+estudiamos nodo:: 9 11 ?
+generamos nodo:: 9 11 ?
+generamos nodo avance:: 10 11 ?
+coste nodo: 112
+estudiamos nodo:: 9 11 ?
+generamos nodo:: 9 11 ?
+estudiamos nodo:: 8 7 ?
+generamos nodo:: 8 7 ?
+generamos nodo:: 8 7 ?
+generamos nodo avance:: 8 6 ?
+coste nodo: 90
+estudiamos nodo:: 8 6 ?
+generamos nodo:: 8 6 ?
+generamos nodo:: 8 6 ?
+generamos nodo avance:: 8 5 ?
+coste nodo: 88
+estudiamos nodo:: 8 5 ?
+generamos nodo:: 8 5 ?
+generamos nodo:: 8 5 ?
+generamos nodo avance:: 8 4 ?
+coste nodo: 84
+estudiamos nodo:: 8 4 ?
+generamos nodo:: 8 4 ?
+generamos nodo:: 8 4 ?
+generamos nodo avance:: 8 3 ?
+coste nodo: 78
+estudiamos nodo:: 8 3 ?
+generamos nodo:: 8 3 ?
+generamos nodo:: 8 3 ?
+generamos nodo avance:: 8 2 ?
+coste nodo: 98
+estudiamos nodo:: 8 3 ?
+generamos nodo:: 8 3 ?
+generamos nodo avance:: 9 3 ?
+coste nodo: 105
+estudiamos nodo:: 8 3 ?
+generamos nodo:: 8 3 ?
+generamos nodo avance:: 7 3 ?
+coste nodo: 75
+estudiamos nodo:: 7 3 ?
+generamos nodo:: 7 3 ?
+generamos nodo:: 7 3 ?
+generamos nodo avance:: 6 3 ?
+coste nodo: 64
+estudiamos nodo:: 6 3 ?
+generamos nodo:: 6 3 ?
+generamos nodo:: 6 3 ?
+generamos nodo avance:: 5 3 ?
+coste nodo: 51
+estudiamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo avance:: 4 3 ?
+coste nodo: 36
+estudiamos nodo:: 4 3 ?
+generamos nodo:: 4 3 ?
+generamos nodo:: 4 3 ?
+generamos nodo avance:: 3 3 ?
+coste nodo: 19
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 17
+A I A A A A A A A A A D A A A A A 
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo avance:: 8 12 T
+coste nodo: 60
+estudiamos nodo:: 8 12 T
+generamos nodo:: 8 12 T
+generamos nodo:: 8 12 T
+generamos nodo avance:: 7 12 K
+				encontrado bikini
+coste nodo: 14
+estudiamos nodo:: 7 12 K
+generamos nodo:: 7 12 K
+generamos nodo:: 7 12 K
+generamos nodo avance:: 6 12 T
+coste nodo: 39
+estudiamos nodo:: 7 12 K
+generamos nodo:: 7 12 K
+generamos nodo avance:: 7 11 T
+coste nodo: 52
+estudiamos nodo:: 7 12 K
+generamos nodo:: 7 12 K
+generamos nodo avance:: 7 13 T
+coste nodo: 60
+estudiamos nodo:: 6 12 T
+generamos nodo:: 6 12 T
+generamos nodo:: 6 12 T
+generamos nodo avance:: 5 12 ?
+coste nodo: 48
+estudiamos nodo:: 7 12 K
+generamos nodo avance:: 8 12 T
+coste nodo: 75
+estudiamos nodo:: 7 12 K
+generamos nodo avance:: 8 12 T
+coste nodo: 75
+estudiamos nodo:: 5 12 ?
+generamos nodo:: 5 12 ?
+generamos nodo:: 5 12 ?
+generamos nodo avance:: 4 12 ?
+coste nodo: 55
+estudiamos nodo:: 7 11 T
+generamos nodo:: 7 11 T
+generamos nodo:: 7 11 T
+generamos nodo avance:: 7 10 T
+coste nodo: 72
+estudiamos nodo:: 4 12 ?
+generamos nodo:: 4 12 ?
+generamos nodo:: 4 12 ?
+generamos nodo avance:: 3 12 ?
+coste nodo: 60
+estudiamos nodo:: 7 13 T
+generamos nodo:: 7 13 T
+generamos nodo:: 7 13 T
+generamos nodo avance:: 7 14 A
+coste nodo: 224
+estudiamos nodo:: 5 12 ?
+generamos nodo:: 5 12 ?
+generamos nodo avance:: 5 11 ?
+coste nodo: 66
+estudiamos nodo:: 5 12 ?
+generamos nodo:: 5 12 ?
+generamos nodo avance:: 5 13 ?
+coste nodo: 78
+estudiamos nodo:: 3 12 ?
+generamos nodo:: 3 12 ?
+generamos nodo:: 3 12 ?
+generamos nodo avance:: 2 12 ?
+coste nodo: 77
+estudiamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo avance:: 9 11 ?
+coste nodo: 75
+estudiamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo avance:: 9 13 A
+coste nodo: 1768
+estudiamos nodo:: 6 12 T
+generamos nodo:: 6 12 T
+generamos nodo avance:: 6 11 T
+coste nodo: 84
+estudiamos nodo:: 6 12 T
+generamos nodo:: 6 12 T
+generamos nodo avance:: 6 13 T
+coste nodo: 98
+estudiamos nodo:: 5 11 ?
+generamos nodo:: 5 11 ?
+generamos nodo:: 5 11 ?
+generamos nodo avance:: 5 10 ?
+coste nodo: 70
+estudiamos nodo:: 4 12 ?
+generamos nodo:: 4 12 ?
+generamos nodo avance:: 4 11 ?
+coste nodo: 70
+estudiamos nodo:: 4 12 ?
+generamos nodo:: 4 12 ?
+generamos nodo avance:: 4 13 ?
+coste nodo: 84
+estudiamos nodo:: 5 10 ?
+generamos nodo:: 5 10 ?
+generamos nodo:: 5 10 ?
+generamos nodo avance:: 5 9 ?
+coste nodo: 72
+estudiamos nodo:: 4 11 ?
+generamos nodo:: 4 11 ?
+generamos nodo:: 4 11 ?
+generamos nodo avance:: 4 10 ?
+coste nodo: 72
+estudiamos nodo:: 3 12 ?
+generamos nodo:: 3 12 ?
+generamos nodo avance:: 3 11 ?
+coste nodo: 72
+estudiamos nodo:: 3 12 ?
+generamos nodo:: 3 12 ?
+generamos nodo avance:: 3 13 ?
+coste nodo: 88
+estudiamos nodo:: 7 10 T
+generamos nodo:: 7 10 T
+generamos nodo:: 7 10 T
+generamos nodo avance:: 7 9 ?
+coste nodo: 77
+estudiamos nodo:: 5 12 ?
+generamos nodo avance:: 6 12 T
+coste nodo: 104
+estudiamos nodo:: 5 12 ?
+generamos nodo avance:: 6 12 T
+coste nodo: 104
+estudiamos nodo:: 5 9 ?
+generamos nodo:: 5 9 ?
+generamos nodo:: 5 9 ?
+generamos nodo avance:: 5 8 ?
+coste nodo: 72
+estudiamos nodo:: 5 8 ?
+generamos nodo:: 5 8 ?
+generamos nodo:: 5 8 ?
+generamos nodo avance:: 5 7 ?
+coste nodo: 70
+estudiamos nodo:: 5 7 ?
+generamos nodo:: 5 7 ?
+generamos nodo:: 5 7 ?
+generamos nodo avance:: 5 6 ?
+coste nodo: 66
+estudiamos nodo:: 5 6 ?
+generamos nodo:: 5 6 ?
+generamos nodo:: 5 6 ?
+generamos nodo avance:: 5 5 ?
+coste nodo: 60
+estudiamos nodo:: 5 5 ?
+generamos nodo:: 5 5 ?
+generamos nodo:: 5 5 ?
+generamos nodo avance:: 5 4 ?
+coste nodo: 52
+estudiamos nodo:: 5 4 ?
+generamos nodo:: 5 4 ?
+generamos nodo:: 5 4 ?
+generamos nodo avance:: 5 3 ?
+coste nodo: 42
+estudiamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo avance:: 5 2 ?
+coste nodo: 60
+estudiamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo avance:: 6 3 ?
+coste nodo: 64
+estudiamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo avance:: 4 3 ?
+coste nodo: 32
+estudiamos nodo:: 4 3 ?
+generamos nodo:: 4 3 ?
+generamos nodo:: 4 3 ?
+generamos nodo avance:: 3 3 ?
+coste nodo: 17
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 17
+A A A A I A A A A A A A A A D A A 
+tiempo simulacion: 2997
+bateria:: 2998
+tiempo simulacion: 2996
+bateria:: 2996
+tiempo simulacion: 2995
+bateria:: 2994
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 6 12 T
+generamos nodo:: 6 12 T
+generamos nodo:: 6 12 T
+generamos nodo avance:: 5 12 T
+coste nodo: 96
+estudiamos nodo:: 5 12 T
+generamos nodo:: 5 12 T
+generamos nodo:: 5 12 T
+generamos nodo avance:: 4 12 T
+coste nodo: 110
+estudiamos nodo:: 6 12 T
+generamos nodo:: 6 12 T
+generamos nodo avance:: 6 11 T
+coste nodo: 120
+estudiamos nodo:: 6 12 T
+generamos nodo:: 6 12 T
+generamos nodo avance:: 6 13 T
+coste nodo: 140
+estudiamos nodo:: 4 12 T
+generamos nodo:: 4 12 T
+generamos nodo:: 4 12 T
+generamos nodo avance:: 3 12 T
+coste nodo: 120
+estudiamos nodo:: 6 11 T
+generamos nodo:: 6 11 T
+generamos nodo:: 6 11 T
+generamos nodo avance:: 6 10 T
+coste nodo: 132
+estudiamos nodo:: 5 12 T
+generamos nodo:: 5 12 T
+generamos nodo avance:: 5 11 T
+coste nodo: 132
+estudiamos nodo:: 5 12 T
+generamos nodo:: 5 12 T
+generamos nodo avance:: 5 13 A
+coste nodo: 260
+estudiamos nodo:: 3 12 T
+generamos nodo:: 3 12 T
+generamos nodo:: 3 12 T
+generamos nodo avance:: 2 12 ?
+coste nodo: 143
+estudiamos nodo:: 6 12 T
+generamos nodo avance:: 7 12 K
+				encontrado bikini
+coste nodo: 154
+estudiamos nodo:: 6 12 T
+generamos nodo avance:: 7 12 K
+				encontrado bikini
+coste nodo: 154
+estudiamos nodo:: 6 10 T
+generamos nodo:: 6 10 T
+generamos nodo:: 6 10 T
+generamos nodo avance:: 6 9 T
+coste nodo: 140
+estudiamos nodo:: 5 11 T
+generamos nodo:: 5 11 T
+generamos nodo:: 5 11 T
+generamos nodo avance:: 5 10 ?
+coste nodo: 130
+estudiamos nodo:: 5 10 ?
+generamos nodo:: 5 10 ?
+generamos nodo:: 5 10 ?
+generamos nodo avance:: 5 9 ?
+coste nodo: 126
+estudiamos nodo:: 5 9 ?
+generamos nodo:: 5 9 ?
+generamos nodo:: 5 9 ?
+generamos nodo avance:: 5 8 ?
+coste nodo: 120
+estudiamos nodo:: 5 8 ?
+generamos nodo:: 5 8 ?
+generamos nodo:: 5 8 ?
+generamos nodo avance:: 5 7 ?
+coste nodo: 112
+estudiamos nodo:: 5 7 ?
+generamos nodo:: 5 7 ?
+generamos nodo:: 5 7 ?
+generamos nodo avance:: 5 6 ?
+coste nodo: 102
+estudiamos nodo:: 5 6 ?
+generamos nodo:: 5 6 ?
+generamos nodo:: 5 6 ?
+generamos nodo avance:: 5 5 ?
+coste nodo: 90
+estudiamos nodo:: 5 5 ?
+generamos nodo:: 5 5 ?
+generamos nodo:: 5 5 ?
+generamos nodo avance:: 5 4 ?
+coste nodo: 76
+estudiamos nodo:: 5 4 ?
+generamos nodo:: 5 4 ?
+generamos nodo:: 5 4 ?
+generamos nodo avance:: 5 3 ?
+coste nodo: 60
+estudiamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo avance:: 5 2 ?
+coste nodo: 84
+estudiamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo avance:: 6 3 ?
+coste nodo: 88
+estudiamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo avance:: 4 3 ?
+coste nodo: 44
+estudiamos nodo:: 4 3 ?
+generamos nodo:: 4 3 ?
+generamos nodo:: 4 3 ?
+generamos nodo avance:: 3 3 ?
+coste nodo: 23
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 14
+A I A A A A A A A A A D A A 
+tiempo simulacion: 2994
+bateria:: 2993
+tiempo simulacion: 2993
+bateria:: 2991
+tiempo simulacion: 2992
+bateria:: 2989
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 5 11 T
+generamos nodo:: 5 11 T
+generamos nodo:: 5 11 T
+generamos nodo avance:: 5 10 T
+coste nodo: 130
+estudiamos nodo:: 5 10 T
+generamos nodo:: 5 10 T
+generamos nodo:: 5 10 T
+generamos nodo avance:: 5 9 T
+coste nodo: 135
+estudiamos nodo:: 5 9 T
+generamos nodo:: 5 9 T
+generamos nodo:: 5 9 T
+generamos nodo avance:: 5 8 T
+coste nodo: 136
+estudiamos nodo:: 5 8 T
+generamos nodo:: 5 8 T
+generamos nodo:: 5 8 T
+generamos nodo avance:: 5 7 ?
+coste nodo: 126
+estudiamos nodo:: 5 7 ?
+generamos nodo:: 5 7 ?
+generamos nodo:: 5 7 ?
+generamos nodo avance:: 5 6 ?
+coste nodo: 114
+estudiamos nodo:: 5 6 ?
+generamos nodo:: 5 6 ?
+generamos nodo:: 5 6 ?
+generamos nodo avance:: 5 5 ?
+coste nodo: 100
+estudiamos nodo:: 5 5 ?
+generamos nodo:: 5 5 ?
+generamos nodo:: 5 5 ?
+generamos nodo avance:: 5 4 ?
+coste nodo: 84
+estudiamos nodo:: 5 4 ?
+generamos nodo:: 5 4 ?
+generamos nodo:: 5 4 ?
+generamos nodo avance:: 5 3 ?
+coste nodo: 66
+estudiamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo avance:: 5 2 ?
+coste nodo: 92
+estudiamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo avance:: 6 3 ?
+coste nodo: 96
+estudiamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo avance:: 4 3 ?
+coste nodo: 48
+estudiamos nodo:: 4 3 ?
+generamos nodo:: 4 3 ?
+generamos nodo:: 4 3 ?
+generamos nodo avance:: 3 3 ?
+coste nodo: 25
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 11
+A A A A A A A A D A A 
+tiempo simulacion: 2991
+bateria:: 2987
+tiempo simulacion: 2990
+bateria:: 2985
+tiempo simulacion: 2989
+bateria:: 2983
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 5 8 T
+generamos nodo:: 5 8 T
+generamos nodo:: 5 8 T
+generamos nodo avance:: 5 7 T
+coste nodo: 133
+estudiamos nodo:: 5 7 T
+generamos nodo:: 5 7 T
+generamos nodo:: 5 7 T
+generamos nodo avance:: 5 6 T
+coste nodo: 126
+estudiamos nodo:: 5 6 T
+generamos nodo:: 5 6 T
+generamos nodo:: 5 6 T
+generamos nodo avance:: 5 5 T
+coste nodo: 115
+estudiamos nodo:: 5 5 T
+generamos nodo:: 5 5 T
+generamos nodo:: 5 5 T
+generamos nodo avance:: 5 4 ?
+coste nodo: 96
+estudiamos nodo:: 5 4 ?
+generamos nodo:: 5 4 ?
+generamos nodo:: 5 4 ?
+generamos nodo avance:: 5 3 ?
+coste nodo: 75
+estudiamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo avance:: 5 2 ?
+coste nodo: 104
+estudiamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo avance:: 6 3 ?
+coste nodo: 108
+estudiamos nodo:: 5 3 ?
+generamos nodo:: 5 3 ?
+generamos nodo avance:: 4 3 ?
+coste nodo: 54
+estudiamos nodo:: 4 3 ?
+generamos nodo:: 4 3 ?
+generamos nodo:: 4 3 ?
+generamos nodo avance:: 3 3 ?
+coste nodo: 28
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 8
+A A A A A D A A 
+tiempo simulacion: 2988
+bateria:: 2981
+tiempo simulacion: 2987
+bateria:: 2979
+tiempo simulacion: 2986
+bateria:: 2977
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 5 5 T
+generamos nodo:: 5 5 T
+generamos nodo:: 5 5 T
+generamos nodo avance:: 5 4 T
+coste nodo: 100
+estudiamos nodo:: 5 4 T
+generamos nodo:: 5 4 T
+generamos nodo:: 5 4 T
+generamos nodo avance:: 5 3 S
+coste nodo: 78
+estudiamos nodo:: 5 3 S
+generamos nodo:: 5 3 S
+generamos nodo:: 5 3 S
+estudiamos nodo:: 5 3 S
+generamos nodo:: 5 3 S
+generamos nodo avance:: 6 3 T
+coste nodo: 116
+estudiamos nodo:: 5 3 S
+generamos nodo:: 5 3 S
+generamos nodo avance:: 4 3 S
+coste nodo: 56
+estudiamos nodo:: 4 3 S
+generamos nodo:: 4 3 S
+generamos nodo:: 4 3 S
+generamos nodo avance:: 3 3 T
+coste nodo: 30
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 5
+A A D A A 
+tiempo simulacion: 2985
+bateria:: 2975
+tiempo simulacion: 2984
+bateria:: 2973
+tiempo simulacion: 2983
+bateria:: 2971
+tiempo simulacion: 2982
+bateria:: 2970
+tiempo simulacion: 2981
+bateria:: 2969
+Objetivo alcanzado!
+Busqueda para el reto
+Calculando plan
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 0
+
+tiempo simulacion: 2980
+bateria:: 2968
+Nuevo objetivo de la lista: (25,11)
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 3 3 T
+generamos nodo:: 3 3 T
+generamos nodo:: 3 3 T
+generamos nodo avance:: 2 3 ?
+coste nodo: 1056
+estudiamos nodo:: 3 3 T
+generamos nodo:: 3 3 T
+estudiamos nodo:: 3 3 T
+generamos nodo:: 3 3 T
+generamos nodo avance:: 3 4 ?
+coste nodo: 1050
+estudiamos nodo:: 3 4 ?
+generamos nodo:: 3 4 ?
+generamos nodo:: 3 4 ?
+generamos nodo avance:: 3 5 T
+coste nodo: 1073
+estudiamos nodo:: 2 3 ?
+generamos nodo:: 2 3 ?
+generamos nodo:: 2 3 ?
+generamos nodo avance:: 1 3 ?
+coste nodo: 1122
+estudiamos nodo:: 3 5 T
+generamos nodo:: 3 5 T
+generamos nodo:: 3 5 T
+generamos nodo avance:: 3 6 T
+coste nodo: 1092
+estudiamos nodo:: 3 4 ?
+generamos nodo:: 3 4 ?
+generamos nodo avance:: 4 4 S
+coste nodo: 1073
+estudiamos nodo:: 4 4 S
+generamos nodo:: 4 4 S
+generamos nodo:: 4 4 S
+generamos nodo avance:: 5 4 T
+coste nodo: 1092
+estudiamos nodo:: 3 4 ?
+generamos nodo:: 3 4 ?
+generamos nodo avance:: 2 4 ?
+coste nodo: 1147
+estudiamos nodo:: 2 3 ?
+generamos nodo:: 2 3 ?
+estudiamos nodo:: 2 3 ?
+generamos nodo:: 2 3 ?
+generamos nodo avance:: 2 4 ?
+coste nodo: 1085
+estudiamos nodo:: 2 4 ?
+generamos nodo:: 2 4 ?
+generamos nodo:: 2 4 ?
+estudiamos nodo:: 5 4 T
+generamos nodo:: 5 4 T
+generamos nodo:: 5 4 T
+generamos nodo avance:: 6 4 T
+coste nodo: 1107
+estudiamos nodo:: 3 6 T
+generamos nodo:: 3 6 T
+generamos nodo:: 3 6 T
+generamos nodo avance:: 3 7 ?
+coste nodo: 1080
+estudiamos nodo:: 3 7 ?
+generamos nodo:: 3 7 ?
+generamos nodo:: 3 7 ?
+generamos nodo avance:: 3 8 T
+coste nodo: 1092
+estudiamos nodo:: 3 8 T
+generamos nodo:: 3 8 T
+generamos nodo:: 3 8 T
+generamos nodo avance:: 3 9 T
+coste nodo: 1100
+estudiamos nodo:: 3 9 T
+generamos nodo:: 3 9 T
+generamos nodo:: 3 9 T
+generamos nodo avance:: 3 10 T
+coste nodo: 1104
+estudiamos nodo:: 4 4 S
+generamos nodo:: 4 4 S
+generamos nodo avance:: 4 3 S
+coste nodo: 1170
+estudiamos nodo:: 4 4 S
+generamos nodo:: 4 4 S
+generamos nodo avance:: 4 5 T
+coste nodo: 1120
+estudiamos nodo:: 3 10 T
+generamos nodo:: 3 10 T
+generamos nodo:: 3 10 T
+generamos nodo avance:: 3 11 T
+coste nodo: 1104
+estudiamos nodo:: 3 11 T
+generamos nodo:: 3 11 T
+generamos nodo:: 3 11 T
+generamos nodo avance:: 3 12 T
+coste nodo: 1100
+estudiamos nodo:: 3 12 T
+generamos nodo:: 3 12 T
+generamos nodo:: 3 12 T
+generamos nodo avance:: 3 13 T
+coste nodo: 1092
+estudiamos nodo:: 3 13 T
+generamos nodo:: 3 13 T
+generamos nodo:: 3 13 T
+generamos nodo avance:: 3 14 A
+coste nodo: 1240
+estudiamos nodo:: 6 4 T
+generamos nodo:: 6 4 T
+generamos nodo:: 6 4 T
+generamos nodo avance:: 7 4 ?
+coste nodo: 1092
+estudiamos nodo:: 7 4 ?
+generamos nodo:: 7 4 ?
+generamos nodo:: 7 4 ?
+generamos nodo avance:: 8 4 ?
+coste nodo: 1075
+estudiamos nodo:: 8 4 ?
+generamos nodo:: 8 4 ?
+generamos nodo:: 8 4 ?
+generamos nodo avance:: 9 4 ?
+coste nodo: 1056
+estudiamos nodo:: 9 4 ?
+generamos nodo:: 9 4 ?
+generamos nodo:: 9 4 ?
+generamos nodo avance:: 10 4 ?
+coste nodo: 1035
+estudiamos nodo:: 10 4 ?
+generamos nodo:: 10 4 ?
+generamos nodo:: 10 4 ?
+generamos nodo avance:: 11 4 ?
+coste nodo: 1012
+estudiamos nodo:: 11 4 ?
+generamos nodo:: 11 4 ?
+generamos nodo:: 11 4 ?
+generamos nodo avance:: 12 4 ?
+coste nodo: 1081
+estudiamos nodo:: 11 4 ?
+generamos nodo:: 11 4 ?
+generamos nodo avance:: 11 3 ?
+coste nodo: 1104
+estudiamos nodo:: 11 4 ?
+generamos nodo:: 11 4 ?
+generamos nodo avance:: 11 5 ?
+coste nodo: 1008
+estudiamos nodo:: 11 5 ?
+generamos nodo:: 11 5 ?
+generamos nodo:: 11 5 ?
+generamos nodo avance:: 11 6 ?
+coste nodo: 980
+estudiamos nodo:: 11 6 ?
+generamos nodo:: 11 6 ?
+generamos nodo:: 11 6 ?
+generamos nodo avance:: 11 7 ?
+coste nodo: 950
+estudiamos nodo:: 11 7 ?
+generamos nodo:: 11 7 ?
+generamos nodo:: 11 7 ?
+generamos nodo avance:: 11 8 ?
+coste nodo: 918
+estudiamos nodo:: 11 8 ?
+generamos nodo:: 11 8 ?
+generamos nodo:: 11 8 ?
+generamos nodo avance:: 11 9 ?
+coste nodo: 884
+estudiamos nodo:: 11 9 ?
+generamos nodo:: 11 9 ?
+generamos nodo:: 11 9 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 848
+estudiamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 810
+estudiamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo avance:: 11 12 ?
+coste nodo: 770
+estudiamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo avance:: 11 13 ?
+coste nodo: 728
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 11 14 A
+coste nodo: 792
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 12 13 ?
+coste nodo: 812
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 10 13 A
+coste nodo: 938
+estudiamos nodo:: 11 13 ?
+generamos nodo avance:: 11 12 ?
+coste nodo: 826
+estudiamos nodo:: 11 13 ?
+generamos nodo avance:: 11 12 ?
+coste nodo: 826
+estudiamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo avance:: 12 12 ?
+coste nodo: 855
+estudiamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo avance:: 10 12 ?
+coste nodo: 855
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 11 15 B
+coste nodo: 1276
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 870
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 870
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 13 13 ?
+coste nodo: 885
+estudiamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo avance:: 12 11 ?
+coste nodo: 896
+estudiamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo avance:: 10 11 ?
+coste nodo: 896
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 12 12 ?
+coste nodo: 900
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 12 14 ?
+coste nodo: 780
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 12 15 B
+coste nodo: 1320
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 13 14 ?
+coste nodo: 868
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 11 14 A
+coste nodo: 852
+estudiamos nodo:: 12 14 ?
+estudiamos nodo:: 12 14 ?
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 900
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 900
+estudiamos nodo:: 12 13 ?
+estudiamos nodo:: 12 13 ?
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 912
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 912
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 10 14 A
+coste nodo: 1053
+estudiamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+generamos nodo avance:: 13 12 ?
+coste nodo: 928
+estudiamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo avance:: 9 12 T
+coste nodo: 944
+estudiamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo avance:: 12 10 ?
+coste nodo: 935
+estudiamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo avance:: 10 10 ?
+coste nodo: 935
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 14 14 ?
+coste nodo: 945
+estudiamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+generamos nodo avance:: 12 11 ?
+coste nodo: 944
+estudiamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 944
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 944
+estudiamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo avance:: 10 11 ?
+coste nodo: 944
+estudiamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo avance:: 10 13 A
+coste nodo: 952
+estudiamos nodo:: 11 10 ?
+generamos nodo avance:: 11 9 ?
+coste nodo: 952
+estudiamos nodo:: 11 10 ?
+generamos nodo avance:: 11 9 ?
+coste nodo: 952
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 13 13 ?
+coste nodo: 960
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 13 15 ?
+coste nodo: 832
+estudiamos nodo:: 13 15 ?
+generamos nodo:: 13 15 ?
+generamos nodo:: 13 15 ?
+generamos nodo avance:: 13 16 ?
+coste nodo: 780
+estudiamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo avance:: 13 17 ?
+coste nodo: 726
+estudiamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo avance:: 13 18 ?
+coste nodo: 670
+estudiamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo avance:: 13 19 ?
+coste nodo: 612
+estudiamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo avance:: 13 20 ?
+coste nodo: 552
+estudiamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo avance:: 13 21 ?
+coste nodo: 490
+estudiamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo avance:: 13 22 ?
+coste nodo: 426
+estudiamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo avance:: 13 23 ?
+coste nodo: 360
+estudiamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo avance:: 13 24 ?
+coste nodo: 292
+estudiamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo avance:: 13 25 ?
+coste nodo: 222
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 13 26 ?
+coste nodo: 300
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 14 25 ?
+coste nodo: 304
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 12 25 ?
+coste nodo: 152
+estudiamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo avance:: 11 25 ?
+coste nodo: 77
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 42
+D A D A A A A A A A A I A A A A A A A A A D A I A D A I A A A A A A A A A A A I A A 
+tiempo simulacion: 2979
+bateria:: 2968
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 3 3 T
+generamos nodo:: 3 3 T
+generamos nodo:: 3 3 T
+generamos nodo avance:: 3 4 S
+coste nodo: 990
+estudiamos nodo:: 3 4 S
+generamos nodo:: 3 4 S
+generamos nodo:: 3 4 S
+generamos nodo avance:: 3 5 T
+coste nodo: 1015
+estudiamos nodo:: 3 5 T
+generamos nodo:: 3 5 T
+generamos nodo:: 3 5 T
+generamos nodo avance:: 3 6 T
+coste nodo: 1036
+estudiamos nodo:: 3 4 S
+generamos nodo:: 3 4 S
+generamos nodo avance:: 4 4 S
+coste nodo: 1015
+estudiamos nodo:: 4 4 S
+generamos nodo:: 4 4 S
+generamos nodo:: 4 4 S
+generamos nodo avance:: 5 4 T
+coste nodo: 1036
+estudiamos nodo:: 3 4 S
+generamos nodo:: 3 4 S
+estudiamos nodo:: 5 4 T
+generamos nodo:: 5 4 T
+generamos nodo:: 5 4 T
+generamos nodo avance:: 6 4 T
+coste nodo: 1053
+estudiamos nodo:: 3 6 T
+generamos nodo:: 3 6 T
+generamos nodo:: 3 6 T
+generamos nodo avance:: 3 7 ?
+coste nodo: 1026
+estudiamos nodo:: 3 7 ?
+generamos nodo:: 3 7 ?
+generamos nodo:: 3 7 ?
+generamos nodo avance:: 3 8 T
+coste nodo: 1040
+estudiamos nodo:: 3 8 T
+generamos nodo:: 3 8 T
+generamos nodo:: 3 8 T
+generamos nodo avance:: 3 9 T
+coste nodo: 1050
+estudiamos nodo:: 4 4 S
+generamos nodo:: 4 4 S
+generamos nodo avance:: 4 3 S
+coste nodo: 1110
+estudiamos nodo:: 4 4 S
+generamos nodo:: 4 4 S
+generamos nodo avance:: 4 5 T
+coste nodo: 1064
+estudiamos nodo:: 3 9 T
+generamos nodo:: 3 9 T
+generamos nodo:: 3 9 T
+generamos nodo avance:: 3 10 T
+coste nodo: 1056
+estudiamos nodo:: 3 4 S
+generamos nodo avance:: 3 3 T
+coste nodo: 1147
+estudiamos nodo:: 3 4 S
+generamos nodo avance:: 3 3 T
+coste nodo: 1147
+estudiamos nodo:: 6 4 T
+generamos nodo:: 6 4 T
+generamos nodo:: 6 4 T
+generamos nodo avance:: 7 4 ?
+coste nodo: 1040
+estudiamos nodo:: 7 4 ?
+generamos nodo:: 7 4 ?
+generamos nodo:: 7 4 ?
+generamos nodo avance:: 8 4 ?
+coste nodo: 1025
+estudiamos nodo:: 8 4 ?
+generamos nodo:: 8 4 ?
+generamos nodo:: 8 4 ?
+generamos nodo avance:: 9 4 ?
+coste nodo: 1008
+estudiamos nodo:: 9 4 ?
+generamos nodo:: 9 4 ?
+generamos nodo:: 9 4 ?
+generamos nodo avance:: 10 4 ?
+coste nodo: 989
+estudiamos nodo:: 10 4 ?
+generamos nodo:: 10 4 ?
+generamos nodo:: 10 4 ?
+generamos nodo avance:: 11 4 ?
+coste nodo: 968
+estudiamos nodo:: 11 4 ?
+generamos nodo:: 11 4 ?
+generamos nodo:: 11 4 ?
+generamos nodo avance:: 12 4 ?
+coste nodo: 1035
+estudiamos nodo:: 11 4 ?
+generamos nodo:: 11 4 ?
+generamos nodo avance:: 11 3 ?
+coste nodo: 1058
+estudiamos nodo:: 11 4 ?
+generamos nodo:: 11 4 ?
+generamos nodo avance:: 11 5 ?
+coste nodo: 966
+estudiamos nodo:: 11 5 ?
+generamos nodo:: 11 5 ?
+generamos nodo:: 11 5 ?
+generamos nodo avance:: 11 6 ?
+coste nodo: 940
+estudiamos nodo:: 11 6 ?
+generamos nodo:: 11 6 ?
+generamos nodo:: 11 6 ?
+generamos nodo avance:: 11 7 ?
+coste nodo: 912
+estudiamos nodo:: 11 7 ?
+generamos nodo:: 11 7 ?
+generamos nodo:: 11 7 ?
+generamos nodo avance:: 11 8 ?
+coste nodo: 882
+estudiamos nodo:: 11 8 ?
+generamos nodo:: 11 8 ?
+generamos nodo:: 11 8 ?
+generamos nodo avance:: 11 9 ?
+coste nodo: 850
+estudiamos nodo:: 11 9 ?
+generamos nodo:: 11 9 ?
+generamos nodo:: 11 9 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 816
+estudiamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 780
+estudiamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo avance:: 11 12 ?
+coste nodo: 742
+estudiamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo avance:: 11 13 ?
+coste nodo: 702
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 11 14 A
+coste nodo: 768
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 12 13 ?
+coste nodo: 784
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 10 13 A
+coste nodo: 910
+estudiamos nodo:: 11 13 ?
+generamos nodo avance:: 11 12 ?
+coste nodo: 798
+estudiamos nodo:: 11 13 ?
+generamos nodo avance:: 11 12 ?
+coste nodo: 798
+estudiamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo avance:: 12 12 ?
+coste nodo: 825
+estudiamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo avance:: 10 12 ?
+coste nodo: 825
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 11 15 B
+coste nodo: 1254
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 840
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 840
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 13 13 ?
+coste nodo: 855
+estudiamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo avance:: 12 11 ?
+coste nodo: 864
+estudiamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo avance:: 10 11 ?
+coste nodo: 864
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 12 12 ?
+coste nodo: 870
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 12 14 ?
+coste nodo: 754
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 12 15 B
+coste nodo: 1296
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 13 14 ?
+coste nodo: 840
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 11 14 A
+coste nodo: 828
+estudiamos nodo:: 12 14 ?
+estudiamos nodo:: 12 14 ?
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 870
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 870
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 880
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 880
+estudiamos nodo:: 12 13 ?
+estudiamos nodo:: 12 13 ?
+estudiamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+generamos nodo avance:: 13 12 ?
+coste nodo: 896
+estudiamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo avance:: 9 12 T
+coste nodo: 912
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 10 14 A
+coste nodo: 1027
+estudiamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo avance:: 12 10 ?
+coste nodo: 901
+estudiamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo avance:: 10 10 ?
+coste nodo: 901
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 14 14 ?
+coste nodo: 915
+estudiamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+generamos nodo avance:: 12 11 ?
+coste nodo: 912
+estudiamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 912
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 912
+estudiamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo avance:: 10 11 ?
+coste nodo: 912
+estudiamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo avance:: 10 13 A
+coste nodo: 924
+estudiamos nodo:: 11 10 ?
+generamos nodo avance:: 11 9 ?
+coste nodo: 918
+estudiamos nodo:: 11 10 ?
+generamos nodo avance:: 11 9 ?
+coste nodo: 918
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 13 13 ?
+coste nodo: 930
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 13 15 ?
+coste nodo: 806
+estudiamos nodo:: 13 15 ?
+generamos nodo:: 13 15 ?
+generamos nodo:: 13 15 ?
+generamos nodo avance:: 13 16 ?
+coste nodo: 756
+estudiamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo avance:: 13 17 ?
+coste nodo: 704
+estudiamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo avance:: 13 18 ?
+coste nodo: 650
+estudiamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo avance:: 13 19 ?
+coste nodo: 594
+estudiamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo avance:: 13 20 ?
+coste nodo: 536
+estudiamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo avance:: 13 21 ?
+coste nodo: 476
+estudiamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo avance:: 13 22 ?
+coste nodo: 414
+estudiamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo avance:: 13 23 ?
+coste nodo: 350
+estudiamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo avance:: 13 24 ?
+coste nodo: 284
+estudiamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo avance:: 13 25 ?
+coste nodo: 216
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 13 26 ?
+coste nodo: 292
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 14 25 ?
+coste nodo: 296
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 12 25 ?
+coste nodo: 148
+estudiamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo avance:: 11 25 ?
+coste nodo: 75
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 41
+A D A A A A A A A A I A A A A A A A A A D A I A D A I A A A A A A A A A A A I A A 
+tiempo simulacion: 2978
+bateria:: 2966
+tiempo simulacion: 2977
+bateria:: 2964
+tiempo simulacion: 2976
+bateria:: 2963
+tiempo simulacion: 2975
+bateria:: 2962
+tiempo simulacion: 2974
+bateria:: 2961
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 6 4 T
+generamos nodo:: 6 4 T
+generamos nodo:: 6 4 T
+generamos nodo avance:: 7 4 T
+coste nodo: 1066
+estudiamos nodo:: 7 4 T
+generamos nodo:: 7 4 T
+generamos nodo:: 7 4 T
+generamos nodo avance:: 8 4 K
+				encontrado bikini
+coste nodo: 1050
+estudiamos nodo:: 8 4 K
+generamos nodo:: 8 4 K
+generamos nodo:: 8 4 K
+generamos nodo avance:: 9 4 T
+coste nodo: 1056
+estudiamos nodo:: 9 4 T
+generamos nodo:: 9 4 T
+generamos nodo:: 9 4 T
+generamos nodo avance:: 10 4 ?
+coste nodo: 1035
+estudiamos nodo:: 10 4 ?
+generamos nodo:: 10 4 ?
+generamos nodo:: 10 4 ?
+generamos nodo avance:: 11 4 ?
+coste nodo: 1012
+estudiamos nodo:: 11 4 ?
+generamos nodo:: 11 4 ?
+generamos nodo:: 11 4 ?
+generamos nodo avance:: 12 4 ?
+coste nodo: 1081
+estudiamos nodo:: 11 4 ?
+generamos nodo:: 11 4 ?
+generamos nodo avance:: 11 3 ?
+coste nodo: 1104
+estudiamos nodo:: 11 4 ?
+generamos nodo:: 11 4 ?
+generamos nodo avance:: 11 5 ?
+coste nodo: 1008
+estudiamos nodo:: 11 5 ?
+generamos nodo:: 11 5 ?
+generamos nodo:: 11 5 ?
+generamos nodo avance:: 11 6 ?
+coste nodo: 980
+estudiamos nodo:: 11 6 ?
+generamos nodo:: 11 6 ?
+generamos nodo:: 11 6 ?
+generamos nodo avance:: 11 7 ?
+coste nodo: 950
+estudiamos nodo:: 11 7 ?
+generamos nodo:: 11 7 ?
+generamos nodo:: 11 7 ?
+generamos nodo avance:: 11 8 ?
+coste nodo: 918
+estudiamos nodo:: 11 8 ?
+generamos nodo:: 11 8 ?
+generamos nodo:: 11 8 ?
+generamos nodo avance:: 11 9 ?
+coste nodo: 884
+estudiamos nodo:: 11 9 ?
+generamos nodo:: 11 9 ?
+generamos nodo:: 11 9 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 848
+estudiamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 810
+estudiamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo avance:: 11 12 ?
+coste nodo: 770
+estudiamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo avance:: 11 13 ?
+coste nodo: 728
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 11 14 A
+coste nodo: 792
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 12 13 ?
+coste nodo: 812
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 10 13 A
+coste nodo: 938
+estudiamos nodo:: 11 13 ?
+generamos nodo avance:: 11 12 ?
+coste nodo: 826
+estudiamos nodo:: 11 13 ?
+generamos nodo avance:: 11 12 ?
+coste nodo: 826
+estudiamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo avance:: 12 12 ?
+coste nodo: 855
+estudiamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo avance:: 10 12 ?
+coste nodo: 855
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 11 15 B
+coste nodo: 1276
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 870
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 870
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 13 13 ?
+coste nodo: 885
+estudiamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo avance:: 12 11 ?
+coste nodo: 896
+estudiamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo avance:: 10 11 ?
+coste nodo: 896
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 12 12 ?
+coste nodo: 900
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 12 14 ?
+coste nodo: 780
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 12 15 B
+coste nodo: 1320
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 13 14 ?
+coste nodo: 868
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 11 14 A
+coste nodo: 852
+estudiamos nodo:: 12 14 ?
+estudiamos nodo:: 12 14 ?
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 900
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 900
+estudiamos nodo:: 12 13 ?
+estudiamos nodo:: 12 13 ?
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 912
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 912
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 10 14 A
+coste nodo: 1053
+estudiamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+generamos nodo avance:: 13 12 ?
+coste nodo: 928
+estudiamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo avance:: 9 12 T
+coste nodo: 944
+estudiamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo avance:: 12 10 ?
+coste nodo: 935
+estudiamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo avance:: 10 10 ?
+coste nodo: 935
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 14 14 ?
+coste nodo: 945
+estudiamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+generamos nodo avance:: 12 11 ?
+coste nodo: 944
+estudiamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 944
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 944
+estudiamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo avance:: 10 11 ?
+coste nodo: 944
+estudiamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo avance:: 10 13 A
+coste nodo: 952
+estudiamos nodo:: 11 10 ?
+generamos nodo avance:: 11 9 ?
+coste nodo: 952
+estudiamos nodo:: 11 10 ?
+generamos nodo avance:: 11 9 ?
+coste nodo: 952
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 13 13 ?
+coste nodo: 960
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 13 15 ?
+coste nodo: 832
+estudiamos nodo:: 13 15 ?
+generamos nodo:: 13 15 ?
+generamos nodo:: 13 15 ?
+generamos nodo avance:: 13 16 ?
+coste nodo: 780
+estudiamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo avance:: 13 17 ?
+coste nodo: 726
+estudiamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo avance:: 13 18 ?
+coste nodo: 670
+estudiamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo avance:: 13 19 ?
+coste nodo: 612
+estudiamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo avance:: 13 20 ?
+coste nodo: 552
+estudiamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo avance:: 13 21 ?
+coste nodo: 490
+estudiamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo avance:: 13 22 ?
+coste nodo: 426
+estudiamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo avance:: 13 23 ?
+coste nodo: 360
+estudiamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo avance:: 13 24 ?
+coste nodo: 292
+estudiamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo avance:: 13 25 ?
+coste nodo: 222
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 13 26 ?
+coste nodo: 300
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 14 25 ?
+coste nodo: 304
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 12 25 ?
+coste nodo: 152
+estudiamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo avance:: 11 25 ?
+coste nodo: 77
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 36
+A A A A A I A A A A A A A A A D A I A D A I A A A A A A A A A A A I A A 
+tiempo simulacion: 2973
+bateria:: 2959
+tiempo simulacion: 2972
+bateria:: 2957
+tiempo simulacion: 2971
+bateria:: 2955
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 9 4 T
+generamos nodo:: 9 4 T
+generamos nodo:: 9 4 T
+generamos nodo avance:: 10 4 T
+coste nodo: 1081
+estudiamos nodo:: 10 4 T
+generamos nodo:: 10 4 T
+generamos nodo:: 10 4 T
+generamos nodo avance:: 11 4 T
+coste nodo: 1078
+estudiamos nodo:: 11 4 T
+generamos nodo:: 11 4 T
+generamos nodo:: 11 4 T
+generamos nodo avance:: 12 4 T
+coste nodo: 1173
+estudiamos nodo:: 11 4 T
+generamos nodo:: 11 4 T
+generamos nodo avance:: 11 3 T
+coste nodo: 1219
+estudiamos nodo:: 11 4 T
+generamos nodo:: 11 4 T
+generamos nodo avance:: 11 5 T
+coste nodo: 1113
+estudiamos nodo:: 11 5 T
+generamos nodo:: 11 5 T
+generamos nodo:: 11 5 T
+generamos nodo avance:: 11 6 T
+coste nodo: 1100
+estudiamos nodo:: 11 6 T
+generamos nodo:: 11 6 T
+generamos nodo:: 11 6 T
+generamos nodo avance:: 11 7 ?
+coste nodo: 1064
+estudiamos nodo:: 11 7 ?
+generamos nodo:: 11 7 ?
+generamos nodo:: 11 7 ?
+generamos nodo avance:: 11 8 ?
+coste nodo: 1026
+estudiamos nodo:: 11 8 ?
+generamos nodo:: 11 8 ?
+generamos nodo:: 11 8 ?
+generamos nodo avance:: 11 9 ?
+coste nodo: 986
+estudiamos nodo:: 11 9 ?
+generamos nodo:: 11 9 ?
+generamos nodo:: 11 9 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 944
+estudiamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 900
+estudiamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo avance:: 11 12 ?
+coste nodo: 854
+estudiamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo avance:: 11 13 ?
+coste nodo: 806
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 11 14 A
+coste nodo: 864
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 12 13 ?
+coste nodo: 896
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 10 13 A
+coste nodo: 1022
+estudiamos nodo:: 11 13 ?
+generamos nodo avance:: 11 12 ?
+coste nodo: 910
+estudiamos nodo:: 11 13 ?
+generamos nodo avance:: 11 12 ?
+coste nodo: 910
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 11 15 B
+coste nodo: 1342
+estudiamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo avance:: 12 12 ?
+coste nodo: 945
+estudiamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo avance:: 10 12 ?
+coste nodo: 945
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 960
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 960
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 13 13 ?
+coste nodo: 975
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 12 12 ?
+coste nodo: 990
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 12 14 ?
+coste nodo: 858
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 12 15 B
+coste nodo: 1392
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 13 14 ?
+coste nodo: 952
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 11 14 A
+coste nodo: 924
+estudiamos nodo:: 12 14 ?
+estudiamos nodo:: 12 14 ?
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 990
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 990
+estudiamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo avance:: 12 11 ?
+coste nodo: 992
+estudiamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo avance:: 10 11 ?
+coste nodo: 992
+estudiamos nodo:: 12 13 ?
+estudiamos nodo:: 12 13 ?
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 10 14 A
+coste nodo: 1131
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 1008
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 1008
+estudiamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+generamos nodo avance:: 13 12 ?
+coste nodo: 1024
+estudiamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo avance:: 9 12 T
+coste nodo: 1040
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 14 14 ?
+coste nodo: 1035
+estudiamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+generamos nodo avance:: 12 11 ?
+coste nodo: 1040
+estudiamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 1040
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 1040
+estudiamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo avance:: 12 10 ?
+coste nodo: 1037
+estudiamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo avance:: 10 10 ?
+coste nodo: 1037
+estudiamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo avance:: 10 11 ?
+coste nodo: 1040
+estudiamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo avance:: 10 13 A
+coste nodo: 1036
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 13 13 ?
+coste nodo: 1050
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 13 15 ?
+coste nodo: 910
+estudiamos nodo:: 13 15 ?
+generamos nodo:: 13 15 ?
+generamos nodo:: 13 15 ?
+generamos nodo avance:: 13 16 ?
+coste nodo: 852
+estudiamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo avance:: 13 17 ?
+coste nodo: 792
+estudiamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo avance:: 13 18 ?
+coste nodo: 730
+estudiamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo avance:: 13 19 ?
+coste nodo: 666
+estudiamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo avance:: 13 20 ?
+coste nodo: 600
+estudiamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo avance:: 13 21 ?
+coste nodo: 532
+estudiamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo avance:: 13 22 ?
+coste nodo: 462
+estudiamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo avance:: 13 23 ?
+coste nodo: 390
+estudiamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo avance:: 13 24 ?
+coste nodo: 316
+estudiamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo avance:: 13 25 ?
+coste nodo: 240
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 13 26 ?
+coste nodo: 324
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 14 25 ?
+coste nodo: 328
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 12 25 ?
+coste nodo: 164
+estudiamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo avance:: 11 25 ?
+coste nodo: 83
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 33
+A A I A A A A A A A A A D A I A D A I A A A A A A A A A A A I A A 
+tiempo simulacion: 2970
+bateria:: 2954
+tiempo simulacion: 2969
+bateria:: 2952
+tiempo simulacion: 2968
+bateria:: 2950
+tiempo simulacion: 2967
+bateria:: 2948
+tiempo simulacion: 2966
+bateria:: 2946
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 11 6 T
+generamos nodo:: 11 6 T
+generamos nodo:: 11 6 T
+generamos nodo avance:: 11 7 T
+coste nodo: 1064
+estudiamos nodo:: 11 7 T
+generamos nodo:: 11 7 T
+generamos nodo:: 11 7 T
+generamos nodo avance:: 11 8 T
+coste nodo: 1044
+estudiamos nodo:: 11 8 T
+generamos nodo:: 11 8 T
+generamos nodo:: 11 8 T
+generamos nodo avance:: 11 9 T
+coste nodo: 1020
+estudiamos nodo:: 11 9 T
+generamos nodo:: 11 9 T
+generamos nodo:: 11 9 T
+generamos nodo avance:: 11 10 ?
+coste nodo: 976
+estudiamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 930
+estudiamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo avance:: 11 12 ?
+coste nodo: 882
+estudiamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo avance:: 11 13 ?
+coste nodo: 832
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 11 14 A
+coste nodo: 888
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 12 13 ?
+coste nodo: 924
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 10 13 A
+coste nodo: 1050
+estudiamos nodo:: 11 13 ?
+generamos nodo avance:: 11 12 ?
+coste nodo: 938
+estudiamos nodo:: 11 13 ?
+generamos nodo avance:: 11 12 ?
+coste nodo: 938
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 11 15 B
+coste nodo: 1364
+estudiamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo avance:: 12 12 ?
+coste nodo: 975
+estudiamos nodo:: 11 12 ?
+generamos nodo:: 11 12 ?
+generamos nodo avance:: 10 12 ?
+coste nodo: 975
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 990
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 990
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 13 13 ?
+coste nodo: 1005
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 12 12 ?
+coste nodo: 1020
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 12 14 ?
+coste nodo: 884
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 12 15 B
+coste nodo: 1416
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 13 14 ?
+coste nodo: 980
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 11 14 A
+coste nodo: 948
+estudiamos nodo:: 12 14 ?
+estudiamos nodo:: 12 14 ?
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 1020
+estudiamos nodo:: 11 12 ?
+generamos nodo avance:: 11 11 ?
+coste nodo: 1020
+estudiamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo avance:: 12 11 ?
+coste nodo: 1024
+estudiamos nodo:: 11 11 ?
+generamos nodo:: 11 11 ?
+generamos nodo avance:: 10 11 ?
+coste nodo: 1024
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 10 14 A
+coste nodo: 1157
+estudiamos nodo:: 12 13 ?
+estudiamos nodo:: 12 13 ?
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 1040
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 1040
+estudiamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+generamos nodo avance:: 13 12 ?
+coste nodo: 1056
+estudiamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo avance:: 9 12 T
+coste nodo: 1072
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 14 14 ?
+coste nodo: 1065
+estudiamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+generamos nodo avance:: 12 11 ?
+coste nodo: 1072
+estudiamos nodo:: 12 12 ?
+generamos nodo:: 12 12 ?
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 1072
+estudiamos nodo:: 11 11 ?
+generamos nodo avance:: 11 10 ?
+coste nodo: 1072
+estudiamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo avance:: 10 11 ?
+coste nodo: 1072
+estudiamos nodo:: 10 12 ?
+generamos nodo:: 10 12 ?
+generamos nodo avance:: 10 13 A
+coste nodo: 1064
+estudiamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo avance:: 12 10 ?
+coste nodo: 1071
+estudiamos nodo:: 11 10 ?
+generamos nodo:: 11 10 ?
+generamos nodo avance:: 10 10 ?
+coste nodo: 1071
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 13 13 ?
+coste nodo: 1080
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 13 15 ?
+coste nodo: 936
+estudiamos nodo:: 13 15 ?
+generamos nodo:: 13 15 ?
+generamos nodo:: 13 15 ?
+generamos nodo avance:: 13 16 ?
+coste nodo: 876
+estudiamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo avance:: 13 17 ?
+coste nodo: 814
+estudiamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo avance:: 13 18 ?
+coste nodo: 750
+estudiamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo avance:: 13 19 ?
+coste nodo: 684
+estudiamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo avance:: 13 20 ?
+coste nodo: 616
+estudiamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo avance:: 13 21 ?
+coste nodo: 546
+estudiamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo avance:: 13 22 ?
+coste nodo: 474
+estudiamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo avance:: 13 23 ?
+coste nodo: 400
+estudiamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo avance:: 13 24 ?
+coste nodo: 324
+estudiamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo avance:: 13 25 ?
+coste nodo: 246
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 13 26 ?
+coste nodo: 332
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 14 25 ?
+coste nodo: 336
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 12 25 ?
+coste nodo: 168
+estudiamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo avance:: 11 25 ?
+coste nodo: 85
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 28
+A A A A A A A D A I A D A I A A A A A A A A A A A I A A 
+tiempo simulacion: 2965
+bateria:: 2944
+tiempo simulacion: 2964
+bateria:: 2942
+tiempo simulacion: 2963
+bateria:: 2940
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 11 9 T
+generamos nodo:: 11 9 T
+generamos nodo:: 11 9 T
+generamos nodo avance:: 11 10 T
+coste nodo: 992
+estudiamos nodo:: 11 10 T
+generamos nodo:: 11 10 T
+generamos nodo:: 11 10 T
+generamos nodo avance:: 11 11 T
+coste nodo: 960
+estudiamos nodo:: 11 11 T
+generamos nodo:: 11 11 T
+generamos nodo:: 11 11 T
+generamos nodo avance:: 11 12 T
+coste nodo: 924
+estudiamos nodo:: 11 12 T
+generamos nodo:: 11 12 T
+generamos nodo:: 11 12 T
+generamos nodo avance:: 11 13 ?
+coste nodo: 871
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 11 14 A
+coste nodo: 924
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 12 13 ?
+coste nodo: 966
+estudiamos nodo:: 11 13 ?
+generamos nodo:: 11 13 ?
+generamos nodo avance:: 10 13 A
+coste nodo: 1092
+estudiamos nodo:: 11 13 ?
+generamos nodo avance:: 11 12 T
+coste nodo: 994
+estudiamos nodo:: 11 13 ?
+generamos nodo avance:: 11 12 T
+coste nodo: 994
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 11 15 B
+coste nodo: 1397
+estudiamos nodo:: 11 12 T
+generamos nodo:: 11 12 T
+generamos nodo avance:: 12 12 T
+coste nodo: 1050
+estudiamos nodo:: 11 12 T
+generamos nodo:: 11 12 T
+generamos nodo avance:: 10 12 T
+coste nodo: 1050
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 13 13 ?
+coste nodo: 1050
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 12 12 T
+coste nodo: 1080
+estudiamos nodo:: 12 13 ?
+generamos nodo:: 12 13 ?
+generamos nodo avance:: 12 14 ?
+coste nodo: 923
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 12 15 B
+coste nodo: 1452
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 13 14 ?
+coste nodo: 1022
+estudiamos nodo:: 12 14 ?
+generamos nodo:: 12 14 ?
+generamos nodo avance:: 11 14 A
+coste nodo: 984
+estudiamos nodo:: 12 14 ?
+estudiamos nodo:: 12 14 ?
+estudiamos nodo:: 11 12 T
+generamos nodo avance:: 11 11 T
+coste nodo: 1080
+estudiamos nodo:: 11 12 T
+generamos nodo avance:: 11 11 T
+coste nodo: 1080
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 10 14 A
+coste nodo: 1196
+estudiamos nodo:: 11 11 T
+generamos nodo:: 11 11 T
+generamos nodo avance:: 12 11 T
+coste nodo: 1088
+estudiamos nodo:: 11 11 T
+generamos nodo:: 11 11 T
+generamos nodo avance:: 10 11 T
+coste nodo: 1088
+estudiamos nodo:: 12 13 ?
+estudiamos nodo:: 12 13 ?
+estudiamos nodo:: 11 12 T
+generamos nodo avance:: 11 11 T
+coste nodo: 1095
+estudiamos nodo:: 11 12 T
+generamos nodo avance:: 11 11 T
+coste nodo: 1095
+estudiamos nodo:: 11 11 T
+generamos nodo avance:: 11 10 T
+coste nodo: 1120
+estudiamos nodo:: 11 11 T
+generamos nodo avance:: 11 10 T
+coste nodo: 1120
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 14 14 ?
+coste nodo: 1110
+estudiamos nodo:: 11 10 T
+generamos nodo:: 11 10 T
+generamos nodo avance:: 12 10 T
+coste nodo: 1122
+estudiamos nodo:: 11 10 T
+generamos nodo:: 11 10 T
+generamos nodo avance:: 10 10 T
+coste nodo: 1122
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 13 13 ?
+coste nodo: 1125
+estudiamos nodo:: 13 14 ?
+generamos nodo:: 13 14 ?
+generamos nodo avance:: 13 15 ?
+coste nodo: 975
+estudiamos nodo:: 13 15 ?
+generamos nodo:: 13 15 ?
+generamos nodo:: 13 15 ?
+generamos nodo avance:: 13 16 ?
+coste nodo: 912
+estudiamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo avance:: 13 17 ?
+coste nodo: 847
+estudiamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo avance:: 13 18 ?
+coste nodo: 780
+estudiamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo avance:: 13 19 ?
+coste nodo: 711
+estudiamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo avance:: 13 20 ?
+coste nodo: 640
+estudiamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo avance:: 13 21 ?
+coste nodo: 567
+estudiamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo avance:: 13 22 ?
+coste nodo: 492
+estudiamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo avance:: 13 23 ?
+coste nodo: 415
+estudiamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo avance:: 13 24 ?
+coste nodo: 336
+estudiamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo avance:: 13 25 ?
+coste nodo: 255
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 13 26 ?
+coste nodo: 344
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 14 25 ?
+coste nodo: 348
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 12 25 ?
+coste nodo: 174
+estudiamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo avance:: 11 25 ?
+coste nodo: 88
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 25
+A A A A D A I A D A I A A A A A A A A A A A I A A 
+tiempo simulacion: 2962
+bateria:: 2938
+tiempo simulacion: 2961
+bateria:: 2936
+tiempo simulacion: 2960
+bateria:: 2934
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 11 12 T
+generamos nodo:: 11 12 T
+generamos nodo:: 11 12 T
+generamos nodo avance:: 11 13 A
+coste nodo: 988
+estudiamos nodo:: 11 12 T
+generamos nodo:: 11 12 T
+generamos nodo avance:: 12 12 T
+coste nodo: 1050
+estudiamos nodo:: 11 12 T
+generamos nodo:: 11 12 T
+generamos nodo avance:: 10 12 T
+coste nodo: 1050
+estudiamos nodo:: 11 12 T
+generamos nodo avance:: 11 11 T
+coste nodo: 1080
+estudiamos nodo:: 11 12 T
+generamos nodo avance:: 11 11 T
+coste nodo: 1080
+estudiamos nodo:: 11 13 A
+generamos nodo:: 11 13 A
+generamos nodo:: 11 13 A
+generamos nodo avance:: 11 14 A
+coste nodo: 1032
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 11 15 B
+coste nodo: 1496
+estudiamos nodo:: 12 12 T
+generamos nodo:: 12 12 T
+generamos nodo:: 12 12 T
+generamos nodo avance:: 13 12 T
+coste nodo: 1152
+estudiamos nodo:: 10 12 T
+generamos nodo:: 10 12 T
+generamos nodo:: 10 12 T
+generamos nodo avance:: 9 12 T
+coste nodo: 1152
+estudiamos nodo:: 12 12 T
+generamos nodo:: 12 12 T
+generamos nodo avance:: 12 11 T
+coste nodo: 1184
+estudiamos nodo:: 12 12 T
+generamos nodo:: 12 12 T
+generamos nodo avance:: 12 13 A
+coste nodo: 1148
+estudiamos nodo:: 11 11 T
+generamos nodo:: 11 11 T
+generamos nodo:: 11 11 T
+generamos nodo avance:: 11 10 T
+coste nodo: 1184
+estudiamos nodo:: 11 11 T
+generamos nodo:: 11 11 T
+generamos nodo:: 11 11 T
+generamos nodo avance:: 11 10 T
+coste nodo: 1184
+estudiamos nodo:: 10 12 T
+generamos nodo:: 10 12 T
+generamos nodo avance:: 10 11 T
+coste nodo: 1184
+estudiamos nodo:: 10 12 T
+generamos nodo:: 10 12 T
+generamos nodo avance:: 10 13 A
+coste nodo: 1148
+estudiamos nodo:: 12 12 T
+estudiamos nodo:: 12 12 T
+estudiamos nodo:: 11 11 T
+generamos nodo:: 11 11 T
+generamos nodo avance:: 12 11 T
+coste nodo: 1216
+estudiamos nodo:: 11 11 T
+generamos nodo:: 11 11 T
+generamos nodo avance:: 12 11 T
+coste nodo: 1216
+estudiamos nodo:: 11 11 T
+generamos nodo:: 11 11 T
+generamos nodo avance:: 10 11 T
+coste nodo: 1216
+estudiamos nodo:: 11 11 T
+generamos nodo:: 11 11 T
+generamos nodo avance:: 10 11 T
+coste nodo: 1216
+estudiamos nodo:: 10 12 T
+estudiamos nodo:: 10 12 T
+estudiamos nodo:: 11 13 A
+generamos nodo:: 11 13 A
+generamos nodo avance:: 12 13 A
+coste nodo: 1344
+estudiamos nodo:: 11 13 A
+generamos nodo:: 11 13 A
+generamos nodo avance:: 10 13 A
+coste nodo: 1344
+estudiamos nodo:: 11 11 T
+estudiamos nodo:: 11 11 T
+estudiamos nodo:: 11 11 T
+estudiamos nodo:: 11 11 T
+estudiamos nodo:: 12 13 A
+generamos nodo:: 12 13 A
+generamos nodo:: 12 13 A
+generamos nodo avance:: 12 14 A
+coste nodo: 1196
+estudiamos nodo:: 10 13 A
+generamos nodo:: 10 13 A
+generamos nodo:: 10 13 A
+generamos nodo avance:: 10 14 A
+coste nodo: 1196
+estudiamos nodo:: 13 12 T
+generamos nodo:: 13 12 T
+generamos nodo:: 13 12 T
+generamos nodo avance:: 14 12 T
+coste nodo: 1258
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 12 14 A
+coste nodo: 1378
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 10 14 A
+coste nodo: 1378
+estudiamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo avance:: 8 12 T
+coste nodo: 1258
+estudiamos nodo:: 13 12 T
+generamos nodo:: 13 12 T
+generamos nodo avance:: 13 11 T
+coste nodo: 1292
+estudiamos nodo:: 13 12 T
+generamos nodo:: 13 12 T
+generamos nodo avance:: 13 13 ?
+coste nodo: 1125
+estudiamos nodo:: 13 13 ?
+generamos nodo:: 13 13 ?
+generamos nodo:: 13 13 ?
+generamos nodo avance:: 13 14 A
+coste nodo: 1190
+estudiamos nodo:: 13 13 ?
+generamos nodo:: 13 13 ?
+generamos nodo avance:: 14 13 ?
+coste nodo: 1232
+estudiamos nodo:: 13 13 ?
+generamos nodo:: 13 13 ?
+generamos nodo avance:: 12 13 A
+coste nodo: 1204
+estudiamos nodo:: 13 13 ?
+estudiamos nodo:: 13 13 ?
+estudiamos nodo:: 12 11 T
+generamos nodo:: 12 11 T
+generamos nodo:: 12 11 T
+generamos nodo avance:: 12 10 T
+coste nodo: 1292
+estudiamos nodo:: 11 10 T
+generamos nodo:: 11 10 T
+generamos nodo:: 11 10 T
+generamos nodo avance:: 11 9 T
+coste nodo: 1292
+estudiamos nodo:: 11 10 T
+generamos nodo:: 11 10 T
+generamos nodo:: 11 10 T
+generamos nodo avance:: 11 9 T
+coste nodo: 1292
+estudiamos nodo:: 10 11 T
+generamos nodo:: 10 11 T
+generamos nodo:: 10 11 T
+generamos nodo avance:: 10 10 T
+coste nodo: 1292
+estudiamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo avance:: 9 11 T
+coste nodo: 1292
+estudiamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo avance:: 9 13 A
+coste nodo: 1260
+estudiamos nodo:: 13 14 A
+generamos nodo:: 13 14 A
+generamos nodo:: 13 14 A
+generamos nodo avance:: 13 15 A
+coste nodo: 1235
+estudiamos nodo:: 12 14 A
+generamos nodo:: 12 14 A
+generamos nodo:: 12 14 A
+generamos nodo avance:: 12 15 B
+coste nodo: 1704
+estudiamos nodo:: 10 14 A
+generamos nodo:: 10 14 A
+generamos nodo:: 10 14 A
+generamos nodo avance:: 10 15 B
+coste nodo: 1704
+estudiamos nodo:: 12 13 A
+generamos nodo:: 12 13 A
+estudiamos nodo:: 13 12 T
+estudiamos nodo:: 13 12 T
+estudiamos nodo:: 12 11 T
+generamos nodo:: 12 11 T
+generamos nodo avance:: 13 11 T
+coste nodo: 1326
+estudiamos nodo:: 12 11 T
+generamos nodo:: 12 11 T
+generamos nodo avance:: 13 11 T
+coste nodo: 1326
+estudiamos nodo:: 12 11 T
+generamos nodo:: 12 11 T
+generamos nodo avance:: 13 11 T
+coste nodo: 1326
+estudiamos nodo:: 12 11 T
+generamos nodo:: 12 11 T
+estudiamos nodo:: 11 10 T
+generamos nodo:: 11 10 T
+generamos nodo avance:: 12 10 T
+coste nodo: 1326
+estudiamos nodo:: 11 10 T
+generamos nodo:: 11 10 T
+generamos nodo avance:: 12 10 T
+coste nodo: 1326
+estudiamos nodo:: 11 10 T
+generamos nodo:: 11 10 T
+generamos nodo avance:: 10 10 T
+coste nodo: 1326
+estudiamos nodo:: 11 10 T
+generamos nodo:: 11 10 T
+generamos nodo avance:: 10 10 T
+coste nodo: 1326
+estudiamos nodo:: 10 11 T
+generamos nodo:: 10 11 T
+estudiamos nodo:: 10 11 T
+generamos nodo:: 10 11 T
+generamos nodo avance:: 9 11 T
+coste nodo: 1326
+estudiamos nodo:: 10 11 T
+generamos nodo:: 10 11 T
+generamos nodo avance:: 9 11 T
+coste nodo: 1326
+estudiamos nodo:: 10 11 T
+generamos nodo:: 10 11 T
+generamos nodo avance:: 9 11 T
+coste nodo: 1326
+estudiamos nodo:: 9 12 T
+estudiamos nodo:: 9 12 T
+estudiamos nodo:: 14 13 ?
+generamos nodo:: 14 13 ?
+generamos nodo:: 14 13 ?
+generamos nodo avance:: 15 13 ?
+coste nodo: 1326
+estudiamos nodo:: 13 15 A
+generamos nodo:: 13 15 A
+generamos nodo:: 13 15 A
+generamos nodo avance:: 13 16 ?
+coste nodo: 1152
+estudiamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo avance:: 13 17 ?
+coste nodo: 1067
+estudiamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo avance:: 13 18 ?
+coste nodo: 980
+estudiamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo avance:: 13 19 ?
+coste nodo: 891
+estudiamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo avance:: 13 20 ?
+coste nodo: 800
+estudiamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo avance:: 13 21 ?
+coste nodo: 707
+estudiamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo avance:: 13 22 ?
+coste nodo: 612
+estudiamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo avance:: 13 23 ?
+coste nodo: 515
+estudiamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo avance:: 13 24 ?
+coste nodo: 416
+estudiamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo avance:: 13 25 ?
+coste nodo: 315
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 13 26 ?
+coste nodo: 424
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 14 25 ?
+coste nodo: 428
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 12 25 ?
+coste nodo: 214
+estudiamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo avance:: 11 25 ?
+coste nodo: 108
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 20
+D A A I A A A A A A A A A A A A A I A A 
+tiempo simulacion: 2959
+bateria:: 2932
+tiempo simulacion: 2958
+bateria:: 2930
+tiempo simulacion: 2957
+bateria:: 2928
+tiempo simulacion: 2956
+bateria:: 2926
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 13 12 T
+generamos nodo:: 13 12 T
+generamos nodo:: 13 12 T
+generamos nodo avance:: 13 13 T
+coste nodo: 1140
+estudiamos nodo:: 13 13 T
+generamos nodo:: 13 13 T
+generamos nodo:: 13 13 T
+generamos nodo avance:: 13 14 A
+coste nodo: 1204
+estudiamos nodo:: 13 13 T
+generamos nodo:: 13 13 T
+generamos nodo avance:: 14 13 T
+coste nodo: 1280
+estudiamos nodo:: 13 13 T
+generamos nodo:: 13 13 T
+generamos nodo avance:: 12 13 A
+coste nodo: 1232
+estudiamos nodo:: 13 13 T
+generamos nodo avance:: 13 12 T
+coste nodo: 1312
+estudiamos nodo:: 13 13 T
+generamos nodo avance:: 13 12 T
+coste nodo: 1312
+estudiamos nodo:: 13 14 A
+generamos nodo:: 13 14 A
+generamos nodo:: 13 14 A
+generamos nodo avance:: 13 15 A
+coste nodo: 1248
+estudiamos nodo:: 13 12 T
+generamos nodo:: 13 12 T
+generamos nodo avance:: 14 12 T
+coste nodo: 1326
+estudiamos nodo:: 13 12 T
+generamos nodo:: 13 12 T
+generamos nodo avance:: 12 12 T
+coste nodo: 1170
+estudiamos nodo:: 12 12 T
+generamos nodo:: 12 12 T
+generamos nodo:: 12 12 T
+generamos nodo avance:: 11 12 T
+coste nodo: 1120
+estudiamos nodo:: 11 12 T
+generamos nodo:: 11 12 T
+generamos nodo:: 11 12 T
+generamos nodo avance:: 10 12 T
+coste nodo: 1230
+estudiamos nodo:: 11 12 T
+generamos nodo:: 11 12 T
+generamos nodo avance:: 11 11 T
+coste nodo: 1260
+estudiamos nodo:: 11 12 T
+generamos nodo:: 11 12 T
+generamos nodo avance:: 11 13 A
+coste nodo: 1196
+estudiamos nodo:: 11 12 T
+generamos nodo avance:: 12 12 T
+coste nodo: 1290
+estudiamos nodo:: 11 12 T
+generamos nodo avance:: 12 12 T
+coste nodo: 1290
+estudiamos nodo:: 11 13 A
+generamos nodo:: 11 13 A
+generamos nodo:: 11 13 A
+generamos nodo avance:: 11 14 A
+coste nodo: 1224
+estudiamos nodo:: 12 12 T
+generamos nodo:: 12 12 T
+generamos nodo avance:: 12 11 T
+coste nodo: 1312
+estudiamos nodo:: 12 12 T
+generamos nodo:: 12 12 T
+generamos nodo avance:: 12 13 A
+coste nodo: 1260
+estudiamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo:: 11 14 A
+generamos nodo avance:: 11 15 B
+coste nodo: 1672
+estudiamos nodo:: 12 12 T
+estudiamos nodo:: 12 12 T
+estudiamos nodo:: 10 12 T
+generamos nodo:: 10 12 T
+generamos nodo:: 10 12 T
+generamos nodo avance:: 9 12 T
+coste nodo: 1344
+estudiamos nodo:: 12 13 A
+generamos nodo:: 12 13 A
+generamos nodo:: 12 13 A
+generamos nodo avance:: 11 13 A
+coste nodo: 1274
+estudiamos nodo:: 13 15 A
+generamos nodo:: 13 15 A
+generamos nodo:: 13 15 A
+generamos nodo avance:: 13 16 ?
+coste nodo: 1164
+estudiamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo:: 13 16 ?
+generamos nodo avance:: 13 17 ?
+coste nodo: 1078
+estudiamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo:: 13 17 ?
+generamos nodo avance:: 13 18 ?
+coste nodo: 990
+estudiamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo:: 13 18 ?
+generamos nodo avance:: 13 19 ?
+coste nodo: 900
+estudiamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo avance:: 13 20 ?
+coste nodo: 808
+estudiamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo avance:: 13 21 ?
+coste nodo: 714
+estudiamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo avance:: 13 22 ?
+coste nodo: 618
+estudiamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo avance:: 13 23 ?
+coste nodo: 520
+estudiamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo avance:: 13 24 ?
+coste nodo: 420
+estudiamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo avance:: 13 25 ?
+coste nodo: 318
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 13 26 ?
+coste nodo: 428
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 14 25 ?
+coste nodo: 432
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 12 25 ?
+coste nodo: 216
+estudiamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo avance:: 11 25 ?
+coste nodo: 109
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 16
+A A A A A A A A A A A A A I A A 
+tiempo simulacion: 2955
+bateria:: 2924
+tiempo simulacion: 2954
+bateria:: 2922
+tiempo simulacion: 2953
+bateria:: 2920
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 13 15 A
+generamos nodo:: 13 15 A
+generamos nodo:: 13 15 A
+generamos nodo avance:: 13 16 B
+coste nodo: 1560
+estudiamos nodo:: 13 15 A
+generamos nodo:: 13 15 A
+generamos nodo avance:: 14 15 A
+coste nodo: 1400
+estudiamos nodo:: 13 15 A
+generamos nodo:: 13 15 A
+generamos nodo avance:: 12 15 B
+coste nodo: 1680
+estudiamos nodo:: 13 15 A
+generamos nodo avance:: 13 14 A
+coste nodo: 1540
+estudiamos nodo:: 13 15 A
+generamos nodo avance:: 13 14 A
+coste nodo: 1540
+estudiamos nodo:: 14 15 A
+generamos nodo:: 14 15 A
+generamos nodo:: 14 15 A
+generamos nodo avance:: 15 15 A
+coste nodo: 1650
+estudiamos nodo:: 14 15 A
+generamos nodo:: 14 15 A
+generamos nodo avance:: 14 14 A
+coste nodo: 1800
+estudiamos nodo:: 14 15 A
+generamos nodo:: 14 15 A
+generamos nodo avance:: 14 16 B
+coste nodo: 2080
+estudiamos nodo:: 13 14 A
+generamos nodo:: 13 14 A
+generamos nodo:: 13 14 A
+generamos nodo avance:: 13 13 T
+coste nodo: 1680
+estudiamos nodo:: 13 14 A
+generamos nodo:: 13 14 A
+generamos nodo:: 13 14 A
+generamos nodo avance:: 13 13 T
+coste nodo: 1680
+estudiamos nodo:: 13 16 B
+generamos nodo:: 13 16 B
+generamos nodo:: 13 16 B
+generamos nodo avance:: 13 17 S
+coste nodo: 1441
+estudiamos nodo:: 13 17 S
+generamos nodo:: 13 17 S
+generamos nodo:: 13 17 S
+generamos nodo avance:: 13 18 S
+coste nodo: 1320
+estudiamos nodo:: 13 18 S
+generamos nodo:: 13 18 S
+generamos nodo:: 13 18 S
+generamos nodo avance:: 13 19 ?
+coste nodo: 1197
+estudiamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo:: 13 19 ?
+generamos nodo avance:: 13 20 ?
+coste nodo: 1072
+estudiamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo:: 13 20 ?
+generamos nodo avance:: 13 21 ?
+coste nodo: 945
+estudiamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo:: 13 21 ?
+generamos nodo avance:: 13 22 ?
+coste nodo: 816
+estudiamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo avance:: 13 23 ?
+coste nodo: 685
+estudiamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo avance:: 13 24 ?
+coste nodo: 552
+estudiamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo avance:: 13 25 ?
+coste nodo: 417
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 13 26 ?
+coste nodo: 560
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 14 25 ?
+coste nodo: 564
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 12 25 ?
+coste nodo: 282
+estudiamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo avance:: 11 25 ?
+coste nodo: 142
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 13
+A A A A A A A A A A I A A 
+tiempo simulacion: 2952
+bateria:: 2910
+tiempo simulacion: 2951
+bateria:: 2900
+tiempo simulacion: 2950
+bateria:: 2850
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 13 18 S
+generamos nodo:: 13 18 S
+generamos nodo:: 13 18 S
+generamos nodo avance:: 13 19 S
+coste nodo: 1359
+estudiamos nodo:: 13 19 S
+generamos nodo:: 13 19 S
+generamos nodo:: 13 19 S
+generamos nodo avance:: 13 20 S
+coste nodo: 1216
+estudiamos nodo:: 13 20 S
+generamos nodo:: 13 20 S
+generamos nodo:: 13 20 S
+generamos nodo avance:: 13 21 S
+coste nodo: 1071
+estudiamos nodo:: 13 21 S
+generamos nodo:: 13 21 S
+generamos nodo:: 13 21 S
+generamos nodo avance:: 13 22 ?
+coste nodo: 924
+estudiamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo:: 13 22 ?
+generamos nodo avance:: 13 23 ?
+coste nodo: 775
+estudiamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo:: 13 23 ?
+generamos nodo avance:: 13 24 ?
+coste nodo: 624
+estudiamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo:: 13 24 ?
+generamos nodo avance:: 13 25 ?
+coste nodo: 471
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 13 26 ?
+coste nodo: 632
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 14 25 ?
+coste nodo: 636
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 12 25 ?
+coste nodo: 318
+estudiamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo:: 12 25 ?
+generamos nodo avance:: 11 25 ?
+coste nodo: 160
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 10
+A A A A A A A I A A 
+tiempo simulacion: 2949
+bateria:: 2849
+tiempo simulacion: 2948
+bateria:: 2848
+tiempo simulacion: 2947
+bateria:: 2847
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 13 21 S
+generamos nodo:: 13 21 S
+generamos nodo:: 13 21 S
+generamos nodo avance:: 13 22 S
+coste nodo: 924
+estudiamos nodo:: 13 22 S
+generamos nodo:: 13 22 S
+generamos nodo:: 13 22 S
+generamos nodo avance:: 13 23 B
+coste nodo: 1020
+estudiamos nodo:: 13 22 S
+generamos nodo:: 13 22 S
+generamos nodo avance:: 14 22 B
+coste nodo: 1435
+estudiamos nodo:: 13 22 S
+generamos nodo:: 13 22 S
+generamos nodo avance:: 12 22 S
+coste nodo: 780
+estudiamos nodo:: 12 22 S
+generamos nodo:: 12 22 S
+generamos nodo:: 12 22 S
+generamos nodo avance:: 11 22 ?
+coste nodo: 628
+estudiamos nodo:: 11 22 ?
+generamos nodo:: 11 22 ?
+generamos nodo:: 11 22 ?
+generamos nodo avance:: 10 22 ?
+coste nodo: 790
+estudiamos nodo:: 11 22 ?
+generamos nodo:: 11 22 ?
+generamos nodo avance:: 11 21 B
+coste nodo: 1040
+estudiamos nodo:: 11 22 ?
+generamos nodo:: 11 22 ?
+generamos nodo avance:: 11 23 S
+coste nodo: 477
+estudiamos nodo:: 11 23 S
+generamos nodo:: 11 23 S
+generamos nodo:: 11 23 S
+generamos nodo avance:: 11 24 B
+coste nodo: 418
+estudiamos nodo:: 11 24 B
+generamos nodo:: 11 24 B
+generamos nodo:: 11 24 B
+generamos nodo avance:: 11 25 ?
+coste nodo: 210
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 8
+A I A A D A A A 
+tiempo simulacion: 2946
+bateria:: 2846
+tiempo simulacion: 2945
+bateria:: 2845
+tiempo simulacion: 2944
+bateria:: 2844
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 12 22 S
+generamos nodo:: 12 22 S
+generamos nodo:: 12 22 S
+generamos nodo avance:: 11 22 S
+coste nodo: 628
+estudiamos nodo:: 11 22 S
+generamos nodo:: 11 22 S
+generamos nodo:: 11 22 S
+generamos nodo avance:: 10 22 S
+coste nodo: 790
+estudiamos nodo:: 11 22 S
+generamos nodo:: 11 22 S
+generamos nodo avance:: 11 21 B
+coste nodo: 1040
+estudiamos nodo:: 11 22 S
+generamos nodo:: 11 22 S
+generamos nodo avance:: 11 23 S
+coste nodo: 477
+estudiamos nodo:: 11 23 S
+generamos nodo:: 11 23 S
+generamos nodo:: 11 23 S
+generamos nodo avance:: 11 24 B
+coste nodo: 418
+estudiamos nodo:: 11 24 B
+generamos nodo:: 11 24 B
+generamos nodo:: 11 24 B
+generamos nodo avance:: 11 25 ?
+coste nodo: 210
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 5
+A D A A A 
+tiempo simulacion: 2943
+bateria:: 2843
+tiempo simulacion: 2942
+bateria:: 2842
+tiempo simulacion: 2941
+bateria:: 2841
+tiempo simulacion: 2940
+bateria:: 2840
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 11 24 B
+generamos nodo:: 11 24 B
+generamos nodo:: 11 24 B
+generamos nodo avance:: 11 25 B
+coste nodo: 210
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 1
+A 
+tiempo simulacion: 2939
+bateria:: 2839
+Objetivo alcanzado!
+Busqueda para el reto
+Calculando plan
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 0
+
+tiempo simulacion: 2938
+bateria:: 2789
+Nuevo objetivo de la lista: (23,23)
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 11 25 B
+generamos nodo:: 11 25 B
+generamos nodo:: 11 25 B
+generamos nodo avance:: 11 26 B
+coste nodo: 4176
+estudiamos nodo:: 11 25 B
+generamos nodo:: 11 25 B
+generamos nodo avance:: 12 25 B
+coste nodo: 4354
+estudiamos nodo:: 11 25 B
+generamos nodo:: 11 25 B
+generamos nodo avance:: 10 25 B
+coste nodo: 4976
+estudiamos nodo:: 11 26 B
+generamos nodo:: 11 26 B
+generamos nodo:: 11 26 B
+estudiamos nodo:: 12 25 B
+generamos nodo:: 12 25 B
+generamos nodo:: 12 25 B
+generamos nodo avance:: 13 25 ?
+coste nodo: 4056
+estudiamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo:: 13 25 ?
+generamos nodo avance:: 14 25 ?
+coste nodo: 3756
+estudiamos nodo:: 14 25 ?
+generamos nodo:: 14 25 ?
+generamos nodo:: 14 25 ?
+generamos nodo avance:: 15 25 ?
+coste nodo: 3454
+estudiamos nodo:: 15 25 ?
+generamos nodo:: 15 25 ?
+generamos nodo:: 15 25 ?
+generamos nodo avance:: 16 25 ?
+coste nodo: 3150
+estudiamos nodo:: 16 25 ?
+generamos nodo:: 16 25 ?
+generamos nodo:: 16 25 ?
+generamos nodo avance:: 17 25 ?
+coste nodo: 2844
+estudiamos nodo:: 17 25 ?
+generamos nodo:: 17 25 ?
+generamos nodo:: 17 25 ?
+generamos nodo avance:: 18 25 ?
+coste nodo: 2536
+estudiamos nodo:: 18 25 ?
+generamos nodo:: 18 25 ?
+generamos nodo:: 18 25 ?
+generamos nodo avance:: 19 25 ?
+coste nodo: 2226
+estudiamos nodo:: 19 25 ?
+generamos nodo:: 19 25 ?
+generamos nodo:: 19 25 ?
+generamos nodo avance:: 20 25 ?
+coste nodo: 1914
+estudiamos nodo:: 20 25 ?
+generamos nodo:: 20 25 ?
+generamos nodo:: 20 25 ?
+generamos nodo avance:: 21 25 ?
+coste nodo: 1600
+estudiamos nodo:: 21 25 ?
+generamos nodo:: 21 25 ?
+generamos nodo:: 21 25 ?
+generamos nodo avance:: 22 25 ?
+coste nodo: 1284
+estudiamos nodo:: 22 25 ?
+generamos nodo:: 22 25 ?
+generamos nodo:: 22 25 ?
+generamos nodo avance:: 23 25 ?
+coste nodo: 966
+estudiamos nodo:: 23 25 ?
+generamos nodo:: 23 25 ?
+generamos nodo:: 23 25 ?
+generamos nodo avance:: 24 25 ?
+coste nodo: 1292
+estudiamos nodo:: 23 25 ?
+generamos nodo:: 23 25 ?
+generamos nodo avance:: 23 24 ?
+coste nodo: 648
+estudiamos nodo:: 23 24 ?
+generamos nodo:: 23 24 ?
+generamos nodo:: 23 24 ?
+generamos nodo avance:: 23 23 ?
+coste nodo: 325
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 16
+D A A A A A A A A A A A A D A A 
+tiempo simulacion: 2937
+bateria:: 2789
+tiempo simulacion: 2936
+bateria:: 2739
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 12 25 B
+generamos nodo:: 12 25 B
+generamos nodo:: 12 25 B
+generamos nodo avance:: 13 25 B
+coste nodo: 4043
+estudiamos nodo:: 13 25 B
+generamos nodo:: 13 25 B
+generamos nodo:: 13 25 B
+generamos nodo avance:: 14 25 S
+coste nodo: 3744
+estudiamos nodo:: 14 25 S
+generamos nodo:: 14 25 S
+generamos nodo:: 14 25 S
+generamos nodo avance:: 15 25 S
+coste nodo: 3443
+estudiamos nodo:: 15 25 S
+generamos nodo:: 15 25 S
+generamos nodo:: 15 25 S
+generamos nodo avance:: 16 25 ?
+coste nodo: 3140
+estudiamos nodo:: 16 25 ?
+generamos nodo:: 16 25 ?
+generamos nodo:: 16 25 ?
+generamos nodo avance:: 17 25 ?
+coste nodo: 2835
+estudiamos nodo:: 17 25 ?
+generamos nodo:: 17 25 ?
+generamos nodo:: 17 25 ?
+generamos nodo avance:: 18 25 ?
+coste nodo: 2528
+estudiamos nodo:: 18 25 ?
+generamos nodo:: 18 25 ?
+generamos nodo:: 18 25 ?
+generamos nodo avance:: 19 25 ?
+coste nodo: 2219
+estudiamos nodo:: 19 25 ?
+generamos nodo:: 19 25 ?
+generamos nodo:: 19 25 ?
+generamos nodo avance:: 20 25 ?
+coste nodo: 1908
+estudiamos nodo:: 20 25 ?
+generamos nodo:: 20 25 ?
+generamos nodo:: 20 25 ?
+generamos nodo avance:: 21 25 ?
+coste nodo: 1595
+estudiamos nodo:: 21 25 ?
+generamos nodo:: 21 25 ?
+generamos nodo:: 21 25 ?
+generamos nodo avance:: 22 25 ?
+coste nodo: 1280
+estudiamos nodo:: 22 25 ?
+generamos nodo:: 22 25 ?
+generamos nodo:: 22 25 ?
+generamos nodo avance:: 23 25 ?
+coste nodo: 963
+estudiamos nodo:: 23 25 ?
+generamos nodo:: 23 25 ?
+generamos nodo:: 23 25 ?
+generamos nodo avance:: 24 25 ?
+coste nodo: 1288
+estudiamos nodo:: 23 25 ?
+generamos nodo:: 23 25 ?
+generamos nodo avance:: 23 24 ?
+coste nodo: 646
+estudiamos nodo:: 23 24 ?
+generamos nodo:: 23 24 ?
+generamos nodo:: 23 24 ?
+generamos nodo avance:: 23 23 ?
+coste nodo: 324
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 14
+A A A A A A A A A A A D A A 
+tiempo simulacion: 2935
+bateria:: 2689
+tiempo simulacion: 2934
+bateria:: 2639
+tiempo simulacion: 2933
+bateria:: 2589
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 15 25 S
+generamos nodo:: 15 25 S
+generamos nodo:: 15 25 S
+generamos nodo avance:: 16 25 B
+coste nodo: 4610
+estudiamos nodo:: 15 25 S
+generamos nodo:: 15 25 S
+generamos nodo avance:: 15 24 S
+coste nodo: 4130
+estudiamos nodo:: 15 24 S
+generamos nodo:: 15 24 S
+generamos nodo:: 15 24 S
+generamos nodo avance:: 15 23 B
+coste nodo: 4167
+estudiamos nodo:: 15 24 S
+generamos nodo:: 15 24 S
+generamos nodo avance:: 16 24 S
+coste nodo: 3735
+estudiamos nodo:: 16 24 S
+generamos nodo:: 16 24 S
+generamos nodo:: 16 24 S
+generamos nodo avance:: 17 24 B
+coste nodo: 3720
+estudiamos nodo:: 17 24 B
+generamos nodo:: 17 24 B
+generamos nodo:: 17 24 B
+generamos nodo avance:: 18 24 B
+coste nodo: 3605
+estudiamos nodo:: 18 24 B
+generamos nodo:: 18 24 B
+generamos nodo:: 18 24 B
+generamos nodo avance:: 19 24 ?
+coste nodo: 3096
+estudiamos nodo:: 19 24 ?
+generamos nodo:: 19 24 ?
+generamos nodo:: 19 24 ?
+generamos nodo avance:: 20 24 ?
+coste nodo: 2585
+estudiamos nodo:: 20 24 ?
+generamos nodo:: 20 24 ?
+generamos nodo:: 20 24 ?
+generamos nodo avance:: 21 24 ?
+coste nodo: 2072
+estudiamos nodo:: 21 24 ?
+generamos nodo:: 21 24 ?
+generamos nodo:: 21 24 ?
+generamos nodo avance:: 22 24 ?
+coste nodo: 1557
+estudiamos nodo:: 22 24 ?
+generamos nodo:: 22 24 ?
+generamos nodo:: 22 24 ?
+generamos nodo avance:: 23 24 ?
+coste nodo: 1040
+estudiamos nodo:: 23 24 ?
+generamos nodo:: 23 24 ?
+generamos nodo:: 23 24 ?
+generamos nodo avance:: 24 24 ?
+coste nodo: 1563
+estudiamos nodo:: 23 24 ?
+generamos nodo:: 23 24 ?
+generamos nodo avance:: 23 23 ?
+coste nodo: 522
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 13
+D A I A A A A A A A A D A 
+tiempo simulacion: 2932
+bateria:: 2588
+tiempo simulacion: 2931
+bateria:: 2587
+tiempo simulacion: 2930
+bateria:: 2586
+tiempo simulacion: 2929
+bateria:: 2585
+tiempo simulacion: 2928
+bateria:: 2584
+tiempo simulacion: 2927
+bateria:: 2583
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 18 24 B
+generamos nodo:: 18 24 B
+generamos nodo:: 18 24 B
+generamos nodo avance:: 19 24 B
+coste nodo: 2802
+estudiamos nodo:: 19 24 B
+generamos nodo:: 19 24 B
+generamos nodo:: 19 24 B
+generamos nodo avance:: 20 24 B
+coste nodo: 2585
+estudiamos nodo:: 20 24 B
+generamos nodo:: 20 24 B
+generamos nodo:: 20 24 B
+generamos nodo avance:: 21 24 B
+coste nodo: 2268
+estudiamos nodo:: 21 24 B
+generamos nodo:: 21 24 B
+generamos nodo:: 21 24 B
+generamos nodo avance:: 22 24 ?
+coste nodo: 1704
+estudiamos nodo:: 22 24 ?
+generamos nodo:: 22 24 ?
+generamos nodo:: 22 24 ?
+generamos nodo avance:: 23 24 ?
+coste nodo: 1138
+estudiamos nodo:: 23 24 ?
+generamos nodo:: 23 24 ?
+generamos nodo:: 23 24 ?
+generamos nodo avance:: 24 24 ?
+coste nodo: 1710
+estudiamos nodo:: 23 24 ?
+generamos nodo:: 23 24 ?
+generamos nodo avance:: 23 23 ?
+coste nodo: 571
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 7
+A A A A A D A 
+tiempo simulacion: 2926
+bateria:: 2533
+tiempo simulacion: 2925
+bateria:: 2483
+tiempo simulacion: 2924
+bateria:: 2433
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 21 24 B
+generamos nodo:: 21 24 B
+generamos nodo:: 21 24 B
+generamos nodo avance:: 22 24 B
+coste nodo: 1851
+estudiamos nodo:: 22 24 B
+generamos nodo:: 22 24 B
+generamos nodo:: 22 24 B
+generamos nodo avance:: 23 24 B
+coste nodo: 1334
+estudiamos nodo:: 23 24 B
+generamos nodo:: 23 24 B
+generamos nodo:: 23 24 B
+generamos nodo avance:: 24 24 S
+coste nodo: 2004
+estudiamos nodo:: 23 24 B
+generamos nodo:: 23 24 B
+generamos nodo avance:: 23 23 S
+coste nodo: 718
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 4
+A A D A 
+tiempo simulacion: 2923
+bateria:: 2383
+tiempo simulacion: 2922
+bateria:: 2333
+tiempo simulacion: 2921
+bateria:: 2283
+tiempo simulacion: 2920
+bateria:: 2233
+Objetivo alcanzado!
+Busqueda para el reto
+Calculando plan
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 0
+
+tiempo simulacion: 2919
+bateria:: 2183
+Nuevo objetivo de la lista: (10,23)
+Cambiado el objetivo
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 23 23 S
+generamos nodo:: 23 23 S
+generamos nodo:: 23 23 S
+generamos nodo avance:: 23 22 S
+coste nodo: 13088
+estudiamos nodo:: 23 22 S
+generamos nodo:: 23 22 S
+generamos nodo:: 23 22 S
+generamos nodo avance:: 23 21 ?
+coste nodo: 12285
+estudiamos nodo:: 23 21 ?
+generamos nodo:: 23 21 ?
+generamos nodo:: 23 21 ?
+generamos nodo avance:: 23 20 ?
+coste nodo: 13120
+estudiamos nodo:: 23 21 ?
+generamos nodo:: 23 21 ?
+generamos nodo avance:: 24 21 B
+coste nodo: 13920
+estudiamos nodo:: 23 21 ?
+generamos nodo:: 23 21 ?
+generamos nodo avance:: 22 21 ?
+coste nodo: 11494
+estudiamos nodo:: 22 21 ?
+generamos nodo:: 22 21 ?
+generamos nodo:: 22 21 ?
+generamos nodo avance:: 21 21 S
+coste nodo: 10686
+estudiamos nodo:: 21 21 S
+generamos nodo:: 21 21 S
+generamos nodo:: 21 21 S
+generamos nodo avance:: 20 21 ?
+coste nodo: 9876
+estudiamos nodo:: 20 21 ?
+generamos nodo:: 20 21 ?
+generamos nodo:: 20 21 ?
+generamos nodo avance:: 19 21 ?
+coste nodo: 9064
+estudiamos nodo:: 19 21 ?
+generamos nodo:: 19 21 ?
+generamos nodo:: 19 21 ?
+generamos nodo avance:: 18 21 ?
+coste nodo: 8250
+estudiamos nodo:: 18 21 ?
+generamos nodo:: 18 21 ?
+generamos nodo:: 18 21 ?
+generamos nodo avance:: 17 21 ?
+coste nodo: 7434
+estudiamos nodo:: 17 21 ?
+generamos nodo:: 17 21 ?
+generamos nodo:: 17 21 ?
+generamos nodo avance:: 16 21 S
+coste nodo: 6616
+estudiamos nodo:: 16 21 S
+generamos nodo:: 16 21 S
+generamos nodo:: 16 21 S
+generamos nodo avance:: 15 21 B
+coste nodo: 6139
+estudiamos nodo:: 15 21 B
+generamos nodo:: 15 21 B
+generamos nodo:: 15 21 B
+generamos nodo avance:: 14 21 S
+coste nodo: 5268
+estudiamos nodo:: 14 21 S
+generamos nodo:: 14 21 S
+generamos nodo:: 14 21 S
+generamos nodo avance:: 13 21 S
+coste nodo: 4395
+estudiamos nodo:: 13 21 S
+generamos nodo:: 13 21 S
+generamos nodo:: 13 21 S
+generamos nodo avance:: 12 21 B
+coste nodo: 3716
+estudiamos nodo:: 12 21 B
+generamos nodo:: 12 21 B
+generamos nodo:: 12 21 B
+generamos nodo avance:: 11 21 B
+coste nodo: 2937
+estudiamos nodo:: 11 21 B
+generamos nodo:: 11 21 B
+generamos nodo:: 11 21 B
+generamos nodo avance:: 10 21 S
+coste nodo: 1960
+estudiamos nodo:: 10 21 S
+generamos nodo:: 10 21 S
+generamos nodo:: 10 21 S
+generamos nodo avance:: 9 21 S
+coste nodo: 981
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 17
+A A D A A A A A A A A A A A A A A 
+tiempo simulacion: 2918
+bateria:: 2183
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 23 22 S
+generamos nodo:: 23 22 S
+generamos nodo:: 23 22 S
+generamos nodo avance:: 23 21 B
+coste nodo: 13005
+estudiamos nodo:: 23 21 B
+generamos nodo:: 23 21 B
+generamos nodo:: 23 21 B
+generamos nodo avance:: 23 20 B
+coste nodo: 14672
+estudiamos nodo:: 23 22 S
+generamos nodo:: 23 22 S
+generamos nodo avance:: 24 22 B
+coste nodo: 14756
+estudiamos nodo:: 23 22 S
+generamos nodo:: 23 22 S
+generamos nodo avance:: 22 22 ?
+coste nodo: 12285
+estudiamos nodo:: 22 22 ?
+generamos nodo:: 22 22 ?
+generamos nodo:: 22 22 ?
+generamos nodo avance:: 21 22 S
+coste nodo: 11480
+estudiamos nodo:: 21 22 S
+generamos nodo:: 21 22 S
+generamos nodo:: 21 22 S
+generamos nodo avance:: 20 22 B
+coste nodo: 11310
+estudiamos nodo:: 20 22 B
+generamos nodo:: 20 22 B
+generamos nodo:: 20 22 B
+generamos nodo avance:: 19 22 ?
+coste nodo: 10452
+estudiamos nodo:: 19 22 ?
+generamos nodo:: 19 22 ?
+generamos nodo:: 19 22 ?
+generamos nodo avance:: 18 22 B
+coste nodo: 10131
+estudiamos nodo:: 18 22 B
+generamos nodo:: 18 22 B
+generamos nodo:: 18 22 B
+generamos nodo avance:: 17 22 ?
+coste nodo: 9220
+estudiamos nodo:: 17 22 ?
+generamos nodo:: 17 22 ?
+generamos nodo:: 17 22 ?
+generamos nodo avance:: 16 22 ?
+coste nodo: 8307
+estudiamos nodo:: 16 22 ?
+generamos nodo:: 16 22 ?
+generamos nodo:: 16 22 ?
+generamos nodo avance:: 15 22 S
+coste nodo: 7392
+estudiamos nodo:: 15 22 S
+generamos nodo:: 15 22 S
+generamos nodo:: 15 22 S
+generamos nodo avance:: 14 22 B
+coste nodo: 6818
+estudiamos nodo:: 14 22 B
+generamos nodo:: 14 22 B
+generamos nodo:: 14 22 B
+generamos nodo avance:: 13 22 S
+coste nodo: 5850
+estudiamos nodo:: 13 22 S
+generamos nodo:: 13 22 S
+generamos nodo:: 13 22 S
+generamos nodo avance:: 12 22 S
+coste nodo: 4880
+estudiamos nodo:: 12 22 S
+generamos nodo:: 12 22 S
+generamos nodo:: 12 22 S
+generamos nodo avance:: 11 22 S
+coste nodo: 3908
+estudiamos nodo:: 11 22 S
+generamos nodo:: 11 22 S
+generamos nodo:: 11 22 S
+generamos nodo avance:: 10 22 S
+coste nodo: 2934
+estudiamos nodo:: 10 22 S
+generamos nodo:: 10 22 S
+generamos nodo:: 10 22 S
+generamos nodo avance:: 9 22 S
+coste nodo: 1958
+estudiamos nodo:: 9 22 S
+generamos nodo:: 9 22 S
+generamos nodo:: 9 22 S
+generamos nodo avance:: 8 22 ?
+coste nodo: 2940
+estudiamos nodo:: 9 22 S
+generamos nodo:: 9 22 S
+generamos nodo avance:: 9 21 S
+coste nodo: 981
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 17
+D A A A A A A A A A A A A A A I A 
+tiempo simulacion: 2917
+bateria:: 2182
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 23 22 S
+generamos nodo:: 23 22 S
+generamos nodo:: 23 22 S
+generamos nodo avance:: 22 22 S
+coste nodo: 12285
+estudiamos nodo:: 22 22 S
+generamos nodo:: 22 22 S
+generamos nodo:: 22 22 S
+generamos nodo avance:: 21 22 S
+coste nodo: 11480
+estudiamos nodo:: 21 22 S
+generamos nodo:: 21 22 S
+generamos nodo:: 21 22 S
+generamos nodo avance:: 20 22 B
+coste nodo: 11310
+estudiamos nodo:: 20 22 B
+generamos nodo:: 20 22 B
+generamos nodo:: 20 22 B
+generamos nodo avance:: 19 22 ?
+coste nodo: 10452
+estudiamos nodo:: 19 22 ?
+generamos nodo:: 19 22 ?
+generamos nodo:: 19 22 ?
+generamos nodo avance:: 18 22 B
+coste nodo: 10131
+estudiamos nodo:: 18 22 B
+generamos nodo:: 18 22 B
+generamos nodo:: 18 22 B
+generamos nodo avance:: 17 22 ?
+coste nodo: 9220
+estudiamos nodo:: 17 22 ?
+generamos nodo:: 17 22 ?
+generamos nodo:: 17 22 ?
+generamos nodo avance:: 16 22 ?
+coste nodo: 8307
+estudiamos nodo:: 16 22 ?
+generamos nodo:: 16 22 ?
+generamos nodo:: 16 22 ?
+generamos nodo avance:: 15 22 S
+coste nodo: 7392
+estudiamos nodo:: 15 22 S
+generamos nodo:: 15 22 S
+generamos nodo:: 15 22 S
+generamos nodo avance:: 14 22 B
+coste nodo: 6818
+estudiamos nodo:: 14 22 B
+generamos nodo:: 14 22 B
+generamos nodo:: 14 22 B
+generamos nodo avance:: 13 22 S
+coste nodo: 5850
+estudiamos nodo:: 13 22 S
+generamos nodo:: 13 22 S
+generamos nodo:: 13 22 S
+generamos nodo avance:: 12 22 S
+coste nodo: 4880
+estudiamos nodo:: 12 22 S
+generamos nodo:: 12 22 S
+generamos nodo:: 12 22 S
+generamos nodo avance:: 11 22 S
+coste nodo: 3908
+estudiamos nodo:: 11 22 S
+generamos nodo:: 11 22 S
+generamos nodo:: 11 22 S
+generamos nodo avance:: 10 22 S
+coste nodo: 2934
+estudiamos nodo:: 10 22 S
+generamos nodo:: 10 22 S
+generamos nodo:: 10 22 S
+generamos nodo avance:: 9 22 S
+coste nodo: 1958
+estudiamos nodo:: 9 22 S
+generamos nodo:: 9 22 S
+generamos nodo:: 9 22 S
+generamos nodo avance:: 8 22 ?
+coste nodo: 2940
+estudiamos nodo:: 9 22 S
+generamos nodo:: 9 22 S
+generamos nodo avance:: 9 21 S
+coste nodo: 981
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 16
+A A A A A A A A A A A A A A I A 
+tiempo simulacion: 2916
+bateria:: 2181
+tiempo simulacion: 2915
+bateria:: 2180
+tiempo simulacion: 2914
+bateria:: 2179
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 20 22 B
+generamos nodo:: 20 22 B
+generamos nodo:: 20 22 B
+generamos nodo avance:: 19 22 B
+coste nodo: 10452
+estudiamos nodo:: 19 22 B
+generamos nodo:: 19 22 B
+generamos nodo:: 19 22 B
+generamos nodo avance:: 18 22 B
+coste nodo: 10131
+estudiamos nodo:: 18 22 B
+generamos nodo:: 18 22 B
+generamos nodo:: 18 22 B
+generamos nodo avance:: 17 22 B
+coste nodo: 9710
+estudiamos nodo:: 17 22 B
+generamos nodo:: 17 22 B
+generamos nodo:: 17 22 B
+generamos nodo avance:: 16 22 ?
+coste nodo: 8748
+estudiamos nodo:: 16 22 ?
+generamos nodo:: 16 22 ?
+generamos nodo:: 16 22 ?
+generamos nodo avance:: 15 22 S
+coste nodo: 7784
+estudiamos nodo:: 15 22 S
+generamos nodo:: 15 22 S
+generamos nodo:: 15 22 S
+generamos nodo avance:: 14 22 B
+coste nodo: 7161
+estudiamos nodo:: 14 22 B
+generamos nodo:: 14 22 B
+generamos nodo:: 14 22 B
+generamos nodo avance:: 13 22 S
+coste nodo: 6144
+estudiamos nodo:: 13 22 S
+generamos nodo:: 13 22 S
+generamos nodo:: 13 22 S
+generamos nodo avance:: 12 22 S
+coste nodo: 5125
+estudiamos nodo:: 12 22 S
+generamos nodo:: 12 22 S
+generamos nodo:: 12 22 S
+generamos nodo avance:: 11 22 S
+coste nodo: 4104
+estudiamos nodo:: 11 22 S
+generamos nodo:: 11 22 S
+generamos nodo:: 11 22 S
+generamos nodo avance:: 10 22 S
+coste nodo: 3081
+estudiamos nodo:: 10 22 S
+generamos nodo:: 10 22 S
+generamos nodo:: 10 22 S
+generamos nodo avance:: 9 22 S
+coste nodo: 2056
+estudiamos nodo:: 9 22 S
+generamos nodo:: 9 22 S
+generamos nodo:: 9 22 S
+generamos nodo avance:: 8 22 ?
+coste nodo: 3087
+estudiamos nodo:: 9 22 S
+generamos nodo:: 9 22 S
+generamos nodo avance:: 9 21 S
+coste nodo: 1030
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 13
+A A A A A A A A A A A I A 
+tiempo simulacion: 2913
+bateria:: 2178
+tiempo simulacion: 2912
+bateria:: 2128
+tiempo simulacion: 2911
+bateria:: 2078
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 17 22 B
+generamos nodo:: 17 22 B
+generamos nodo:: 17 22 B
+generamos nodo avance:: 16 22 S
+coste nodo: 8307
+estudiamos nodo:: 16 22 S
+generamos nodo:: 16 22 S
+generamos nodo:: 16 22 S
+generamos nodo avance:: 15 22 S
+coste nodo: 7392
+estudiamos nodo:: 15 22 S
+generamos nodo:: 15 22 S
+generamos nodo:: 15 22 S
+generamos nodo avance:: 14 22 B
+coste nodo: 6818
+estudiamos nodo:: 14 22 B
+generamos nodo:: 14 22 B
+generamos nodo:: 14 22 B
+generamos nodo avance:: 13 22 S
+coste nodo: 5850
+estudiamos nodo:: 13 22 S
+generamos nodo:: 13 22 S
+generamos nodo:: 13 22 S
+generamos nodo avance:: 12 22 S
+coste nodo: 4880
+estudiamos nodo:: 12 22 S
+generamos nodo:: 12 22 S
+generamos nodo:: 12 22 S
+generamos nodo avance:: 11 22 S
+coste nodo: 3908
+estudiamos nodo:: 11 22 S
+generamos nodo:: 11 22 S
+generamos nodo:: 11 22 S
+generamos nodo avance:: 10 22 S
+coste nodo: 2934
+estudiamos nodo:: 10 22 S
+generamos nodo:: 10 22 S
+generamos nodo:: 10 22 S
+generamos nodo avance:: 9 22 S
+coste nodo: 1958
+estudiamos nodo:: 9 22 S
+generamos nodo:: 9 22 S
+generamos nodo:: 9 22 S
+generamos nodo avance:: 8 22 ?
+coste nodo: 2940
+estudiamos nodo:: 9 22 S
+generamos nodo:: 9 22 S
+generamos nodo avance:: 9 21 S
+coste nodo: 981
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 10
+A A A A A A A A I A 
+tiempo simulacion: 2910
+bateria:: 2028
+tiempo simulacion: 2909
+bateria:: 1978
+tiempo simulacion: 2908
+bateria:: 1977
+tiempo simulacion: 2907
+bateria:: 1976
+tiempo simulacion: 2906
+bateria:: 1926
+tiempo simulacion: 2905
+bateria:: 1925
+tiempo simulacion: 2904
+bateria:: 1924
+tiempo simulacion: 2903
+bateria:: 1923
+tiempo simulacion: 2902
+bateria:: 1922
+tiempo simulacion: 2901
+bateria:: 1921
+Objetivo alcanzado!
+Busqueda para el reto
+Calculando plan
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 0
+
+tiempo simulacion: 2900
+bateria:: 1920
+Nuevo objetivo de la lista: (8,16)
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 9 21 S
+generamos nodo:: 9 21 S
+generamos nodo:: 9 21 S
+generamos nodo avance:: 9 20 S
+coste nodo: 21620
+estudiamos nodo:: 9 20 S
+generamos nodo:: 9 20 S
+generamos nodo:: 9 20 S
+generamos nodo avance:: 9 19 S
+coste nodo: 20558
+estudiamos nodo:: 9 19 S
+generamos nodo:: 9 19 S
+generamos nodo:: 9 19 S
+generamos nodo avance:: 9 18 ?
+coste nodo: 19494
+estudiamos nodo:: 9 18 ?
+generamos nodo:: 9 18 ?
+generamos nodo:: 9 18 ?
+generamos nodo avance:: 9 17 ?
+coste nodo: 18428
+estudiamos nodo:: 9 17 ?
+generamos nodo:: 9 17 ?
+generamos nodo:: 9 17 ?
+generamos nodo avance:: 9 16 ?
+coste nodo: 17360
+estudiamos nodo:: 9 16 ?
+generamos nodo:: 9 16 ?
+generamos nodo:: 9 16 ?
+generamos nodo avance:: 9 15 B
+coste nodo: 17025
+estudiamos nodo:: 9 15 B
+generamos nodo:: 9 15 B
+generamos nodo:: 9 15 B
+generamos nodo avance:: 9 14 A
+coste nodo: 16030
+estudiamos nodo:: 9 14 A
+generamos nodo:: 9 14 A
+generamos nodo:: 9 14 A
+generamos nodo avance:: 9 13 A
+coste nodo: 15015
+estudiamos nodo:: 9 13 A
+generamos nodo:: 9 13 A
+generamos nodo:: 9 13 A
+generamos nodo avance:: 9 12 T
+coste nodo: 13884
+estudiamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo avance:: 9 11 T
+coste nodo: 12749
+estudiamos nodo:: 9 11 T
+generamos nodo:: 9 11 T
+generamos nodo:: 9 11 T
+generamos nodo avance:: 9 10 ?
+coste nodo: 11600
+estudiamos nodo:: 9 10 ?
+generamos nodo:: 9 10 ?
+generamos nodo:: 9 10 ?
+generamos nodo avance:: 9 9 T
+coste nodo: 10458
+estudiamos nodo:: 9 9 T
+generamos nodo:: 9 9 T
+generamos nodo:: 9 9 T
+generamos nodo avance:: 9 8 T
+coste nodo: 9312
+estudiamos nodo:: 9 8 T
+generamos nodo:: 9 8 T
+generamos nodo:: 9 8 T
+generamos nodo avance:: 9 7 T
+coste nodo: 10494
+estudiamos nodo:: 9 8 T
+generamos nodo:: 9 8 T
+generamos nodo avance:: 10 8 T
+coste nodo: 8176
+estudiamos nodo:: 10 8 T
+generamos nodo:: 10 8 T
+generamos nodo:: 10 8 T
+generamos nodo avance:: 11 8 T
+coste nodo: 7020
+estudiamos nodo:: 11 8 T
+generamos nodo:: 11 8 T
+generamos nodo:: 11 8 T
+generamos nodo avance:: 12 8 T
+coste nodo: 5860
+estudiamos nodo:: 12 8 T
+generamos nodo:: 12 8 T
+generamos nodo:: 12 8 T
+generamos nodo avance:: 13 8 T
+coste nodo: 4696
+estudiamos nodo:: 13 8 T
+generamos nodo:: 13 8 T
+generamos nodo:: 13 8 T
+generamos nodo avance:: 14 8 ?
+coste nodo: 3525
+estudiamos nodo:: 14 8 ?
+generamos nodo:: 14 8 ?
+generamos nodo:: 14 8 ?
+generamos nodo avance:: 15 8 ?
+coste nodo: 2352
+estudiamos nodo:: 15 8 ?
+generamos nodo:: 15 8 ?
+generamos nodo:: 15 8 ?
+generamos nodo avance:: 16 8 ?
+coste nodo: 1177
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 21
+A A A A A A A A A A A A A I A A A A A A A 
+tiempo simulacion: 2899
+bateria:: 1920
+tiempo simulacion: 2898
+bateria:: 1919
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 9 19 S
+generamos nodo:: 9 19 S
+generamos nodo:: 9 19 S
+generamos nodo avance:: 9 18 S
+coste nodo: 19476
+estudiamos nodo:: 9 18 S
+generamos nodo:: 9 18 S
+generamos nodo:: 9 18 S
+generamos nodo avance:: 9 17 B
+coste nodo: 19244
+estudiamos nodo:: 9 17 B
+generamos nodo:: 9 17 B
+generamos nodo:: 9 17 B
+generamos nodo avance:: 9 16 B
+coste nodo: 18912
+estudiamos nodo:: 9 16 B
+generamos nodo:: 9 16 B
+generamos nodo:: 9 16 B
+generamos nodo avance:: 9 15 B
+coste nodo: 18480
+estudiamos nodo:: 9 15 B
+generamos nodo:: 9 15 B
+generamos nodo:: 9 15 B
+generamos nodo avance:: 9 14 A
+coste nodo: 17388
+estudiamos nodo:: 9 14 A
+generamos nodo:: 9 14 A
+generamos nodo:: 9 14 A
+generamos nodo avance:: 9 13 A
+coste nodo: 16276
+estudiamos nodo:: 9 13 A
+generamos nodo:: 9 13 A
+generamos nodo:: 9 13 A
+generamos nodo avance:: 9 12 T
+coste nodo: 15048
+estudiamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo:: 9 12 T
+generamos nodo avance:: 9 11 T
+coste nodo: 13816
+estudiamos nodo:: 9 11 T
+generamos nodo:: 9 11 T
+generamos nodo:: 9 11 T
+generamos nodo avance:: 9 10 ?
+coste nodo: 12570
+estudiamos nodo:: 9 10 ?
+generamos nodo:: 9 10 ?
+generamos nodo:: 9 10 ?
+generamos nodo avance:: 9 9 T
+coste nodo: 11331
+estudiamos nodo:: 9 9 T
+generamos nodo:: 9 9 T
+generamos nodo:: 9 9 T
+generamos nodo avance:: 9 8 T
+coste nodo: 10088
+estudiamos nodo:: 9 8 T
+generamos nodo:: 9 8 T
+generamos nodo:: 9 8 T
+generamos nodo avance:: 9 7 T
+coste nodo: 11367
+estudiamos nodo:: 9 8 T
+generamos nodo:: 9 8 T
+generamos nodo avance:: 10 8 T
+coste nodo: 8855
+estudiamos nodo:: 10 8 T
+generamos nodo:: 10 8 T
+generamos nodo:: 10 8 T
+generamos nodo avance:: 11 8 T
+coste nodo: 7602
+estudiamos nodo:: 11 8 T
+generamos nodo:: 11 8 T
+generamos nodo:: 11 8 T
+generamos nodo avance:: 12 8 T
+coste nodo: 6345
+estudiamos nodo:: 12 8 T
+generamos nodo:: 12 8 T
+generamos nodo:: 12 8 T
+generamos nodo avance:: 13 8 T
+coste nodo: 5084
+estudiamos nodo:: 13 8 T
+generamos nodo:: 13 8 T
+generamos nodo:: 13 8 T
+generamos nodo avance:: 14 8 ?
+coste nodo: 3816
+estudiamos nodo:: 14 8 ?
+generamos nodo:: 14 8 ?
+generamos nodo:: 14 8 ?
+generamos nodo avance:: 15 8 ?
+coste nodo: 2546
+estudiamos nodo:: 15 8 ?
+generamos nodo:: 15 8 ?
+generamos nodo:: 15 8 ?
+generamos nodo avance:: 16 8 ?
+coste nodo: 1274
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 19
+A A A A A A A A A A A I A A A A A A A 
+tiempo simulacion: 2897
+bateria:: 1918
+tiempo simulacion: 2896
+bateria:: 1917
+tiempo simulacion: 2895
+bateria:: 1916
+tiempo simulacion: 2894
+bateria:: 1866
+tiempo simulacion: 2893
+bateria:: 1816
+tiempo simulacion: 2892
+bateria:: 1766
+tiempo simulacion: 2891
+bateria:: 1756
+tiempo simulacion: 2890
+bateria:: 1746
+Busqueda para el reto
+Calculando plan
+estudiamos nodo:: 9 11 T
+generamos nodo:: 9 11 T
+generamos nodo:: 9 11 T
+generamos nodo avance:: 9 10 T
+coste nodo: 12560
+estudiamos nodo:: 9 10 T
+generamos nodo:: 9 10 T
+generamos nodo:: 9 10 T
+generamos nodo avance:: 9 9 T
+coste nodo: 11322
+estudiamos nodo:: 9 9 T
+generamos nodo:: 9 9 T
+generamos nodo:: 9 9 T
+generamos nodo avance:: 9 8 T
+coste nodo: 10080
+estudiamos nodo:: 9 8 T
+generamos nodo:: 9 8 T
+generamos nodo:: 9 8 T
+generamos nodo avance:: 9 7 T
+coste nodo: 11358
+estudiamos nodo:: 9 8 T
+generamos nodo:: 9 8 T
+generamos nodo avance:: 10 8 T
+coste nodo: 8848
+estudiamos nodo:: 10 8 T
+generamos nodo:: 10 8 T
+generamos nodo:: 10 8 T
+generamos nodo avance:: 11 8 T
+coste nodo: 7596
+estudiamos nodo:: 11 8 T
+generamos nodo:: 11 8 T
+generamos nodo:: 11 8 T
+generamos nodo avance:: 12 8 T
+coste nodo: 6340
+estudiamos nodo:: 12 8 T
+generamos nodo:: 12 8 T
+generamos nodo:: 12 8 T
+generamos nodo avance:: 13 8 T
+coste nodo: 5080
+estudiamos nodo:: 13 8 T
+generamos nodo:: 13 8 T
+generamos nodo:: 13 8 T
+generamos nodo avance:: 14 8 ?
+coste nodo: 3813
+estudiamos nodo:: 14 8 ?
+generamos nodo:: 14 8 ?
+generamos nodo:: 14 8 ?
+generamos nodo avance:: 15 8 ?
+coste nodo: 2544
+estudiamos nodo:: 15 8 ?
+generamos nodo:: 15 8 ?
+generamos nodo:: 15 8 ?
+generamos nodo avance:: 16 8 ?
+coste nodo: 1273
+Terminada la busqueda
+Cargando el plan
+Longitud del plan: 11
+A A A I A A A A A A A 
+tiempo simulacion: 2889
+bateria:: 1744
