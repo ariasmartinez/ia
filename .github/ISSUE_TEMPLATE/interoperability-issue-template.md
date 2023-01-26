@@ -7,15 +7,18 @@ assignees: ''
 
 ---
 
-### Executables information
+- **Please, modify the Title accordingly to show the problem**
 
-- **Publisher**: 
+### Executable's name
+
+- **Publisher**:
 - **Subscriber**:
 
-### Where is the problem?
+### Reproducing the problem
 
 - **Test Suite**:
 - **Test Case**:
+- **Link to the GitHub Action workflow run**:
 
 ### What is the problem?
 
@@ -26,6 +29,6 @@ assignees: ''
 
 ### Suggestions about why this problem exists
 
-### Link to the GitHub Action run
+-
 
 ### Other comments
