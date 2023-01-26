@@ -15,8 +15,8 @@ assignees: ''
 ### Where is the problem?
 
 - **Test Suite**:
-- **Test Case**
-:
+- **Test Case**:
+
 ### What is the problem?
 
 - **Publisher expected code**:
@@ -25,5 +25,7 @@ assignees: ''
 - **Subscriber produced code**:
 
 ### Suggestions about why this problem exists
+
+### Link to the GitHub Action run
 
 ### Other comments
