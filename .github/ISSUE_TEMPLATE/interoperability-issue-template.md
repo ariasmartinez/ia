@@ -9,8 +9,8 @@ assignees: ''
 
 ### Executables information
 
-- **Publisher** : 
-- **Subscriber** :
+- **Publisher**: 
+- **Subscriber**:
 
 ### Where is the problem?
 
