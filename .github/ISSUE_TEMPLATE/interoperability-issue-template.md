@@ -1,7 +1,7 @@
 ---
 name: Interoperability issue template
 about: Report an interoperability problem
-title: ''
+title: 'Problem with <qos>'
 labels: ''
 assignees: ''
 
